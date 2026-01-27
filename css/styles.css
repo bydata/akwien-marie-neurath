@@ -1,0 +1,91 @@
+/*-- scss:defaults --*/
+
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 11pt;
+  color: black;
+  background-color: "#F1F1F1" !important;
+}
+
+h1 {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 32pt;
+  text-align: center;
+  color: white;
+  margin: 3px 0 3px;
+}
+
+h2 {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 24pt;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background: #aaa;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+
+p {
+  line-height: 1.4;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+li {
+  font-weight: 300 !important;
+  font-size: 1.1em;
+}
+
+em {
+  font-weight: 600;
+  font-style: normal;
+}
+
+.highlighted-text {
+  font-weight: 600;
+  background-color: #32322D;
+  color: white;
+  padding: 1px 3px;
+}
+
+.highlighted-text-purple {
+  background-color: #933689;
+}
+
+.highlighted-text-green {
+  background-color: #559B3B;
+}
+
+.highlighted-text-blue {
+  background-color: #2F91BD;
+}
+
+
+.narrative {
+  font-weight: 200 !important;
+}
+
+.narrative-blank {
+  background-color: red !important;
+}

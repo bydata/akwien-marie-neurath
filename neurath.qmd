@@ -1,0 +1,141 @@
+---
+title: Vermögensverteilung in Österreich
+css:
+  - css/styles.css
+  - css/playfair-display.css
+  - css/roboto.css
+format:
+  closeread-html:
+    cr-section:
+      layout: "overlay-center"
+    cr-style:
+      narrative-text-color-overlay: "black"
+      narrative-background-color-overlay: "#FFFFFFF2"
+      section-background-color: "#F1F1F1"
+      narrative-border-radius: 5px
+---
+
+
+::: cr-section
+
+
+::: {#cr-100-people}
+![](media/100-people.png)
+:::
+
+::: {#cr-100-people-semitransparent}
+![](media/100-people.png){style="opacity: 0.1;"}
+:::
+
+
+::: {#cr-100-people-50percent}
+![](media/100-people-50-percent.png)
+:::
+
+
+::: {#cr-100-people-10percent}
+![](media/100-people-10-percent.png)
+:::
+
+
+::: {#cr-100-people-1percent}
+![](media/100-people-1-percent.png)
+:::
+
+
+::: {#cr-vermoegen}
+![](media/vermoegen-klein.png)
+:::
+
+
+
+@cr-100-people Stelle dir vor, diese <em>100 Personen</em> stehen für die gesamte Bevölkerung Österreichs. <em>Eine Person repräsentiert 1 % der österreichischen Haushalte</em>. 🇦🇹 <br><br>Jeder Haushalt besitzt ein bestimmtes Vermögen.
+
+@cr-100-people-50percent Dann sind <span class="highlighted-text">diese 50 Personen</span> hier die Hälfte der Haushalte.<br><br>Wenn man die Bevölkerung nach der Höhe ihres Vermögens ordnet, dann ist dies die  Hälfte der Haushalte mit dem geringsten Vermögen.
+
+<span class="highlighted-text">Diese zehn Haushalte</span> besitzen das höchste Vermögen. @cr-100-people-10percent 
+
+@cr-100-people-1percent Und dann gibt es unter diesen zehn Haushalten <span class="highlighted-text highlighted-text-purple">einen Haushalt</span> mit dem höchsten Vermögen.
+
+@cr-100-people-semitransparent Wie teilt sich nun das Vermögen unter diesen 100 Haushalten in Österreich auf?
+
+
+@cr-vermoegen <span class="highlighted-text">Vermögen</span> sind alle in Geld bewerteten dauerhaften Güter und Rechte wie Grundbesitz, Wertpapiere oder Bargeld einer Person oder eines privaten Haushalts.
+
+:::
+
+::: cr-section
+
+::: {#cr-vermoegen-vergleich-1}
+![](media/vermoegen-vergleich-1.png){height="4000px"}
+:::
+
+
+
+[@cr-vermoegen-vergleich-1] Hier vergleichen wir das mittlere Vermögen der unteren Hälfte der Haushalte, das mittlere Vermögen aller Haushalte und das durchschnittliche Vermögen des obersten Prozents.
+
+
+[@cr-vermoegen-vergleich-1]{pan-to="0%,-20%"} Weiterscrollen!
+
+[@cr-vermoegen-vergleich-1]{pan-to="0%,-40%"} Haushalte, die Vermögen von mehr als 2,64 Mio. EUR besitzen, gehören zum obersten Prozent.
+
+[@cr-vermoegen-vergleich-1]{pan-to="0%,-80%"} Und durchschnittlich besitzen diese Haushalte 4,92 Mio. EUR.
+
+
+
+:::
+
+
+::: cr-section
+
+::: {#cr-vermoegen-vergleich-1-klein}
+![](media/vermoegen-vergleich-1.png){height="1000px"}
+:::
+
+
+[@cr-vermoegen-vergleich-1-klein] Also noch einmal auf einer Bildschirmseite.
+
+:::
+
+
+::: cr-section
+
+::: {#cr-people-vermoegen-start}
+![](media/people-vermoegen-start.png)
+:::
+
+::: {#cr-people-vermoegen-untere50}
+![](media/people-vermoegen-untere50.png)
+:::
+
+::: {#cr-people-vermoegen-51bis11}
+![](media/people-vermoegen-51bis11.png)
+:::
+
+::: {#cr-people-vermoegen-10bis2}
+![](media/people-vermoegen-10bis2.png)
+:::
+
+
+
+@cr-people-vermoegen-start Los gehts!
+
+
+@cr-people-vermoegen-untere50 <span class="highlighted-text">Die untere Hälfte der Haushalte</span> verfügt über fünf Prozent des gesamten Vermögens privater Haushalte.
+
+@cr-people-vermoegen-51bis11 Die <span class="highlighted-text highlighted-text-green">nächsten 40 Prozent der Haushalte</span> (51. bis 11. Perzentil) verfügen über 43 Prozent.
+
+@cr-people-vermoegen-10bis2 Die <span class="highlighted-text highlighted-text-blue">nächsten 9 Prozent der Haushalte</span> (10. bis 2. Perzentil) verfügen über 36 Prozent.
+
+
+
+:::
+
+
+
+## Quellen
+
+* Heck, Ines, Anna Hornykewycz, Jakob Kapeller, Rafael Wildauer (2024): Vermögensverteilung in Österreich: Eine Analyse auf Basis des HFCS 2021/22. In: Materialien zu Wirtschaft und Gesellschaft Nr. 255. Working Paper-Reihe der AK Wien.
+* Isotypen: Gerd Arntz Web Archive: [https://www.gerdarntz.org/isotype.html](https://www.gerdarntz.org/isotype.html), digital bearbeitet
+* Bundeszentrale für politische Bildung: [https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/21004/vermoegen/](https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/21004/vermoegen/)
+* Household Finance and Consumption Survey 2021: [https://www.hfcs.at/ergebnisse-tabellen/hfcs-2021.html](https://www.hfcs.at/ergebnisse-tabellen/hfcs-2021.html), Standard-Output-Tabellen ([Download](https://www.hfcs.at/dam/jcr:d1b35868-6ebc-4f29-90a8-d0e40df9369c/HFCS-AT-2021-Standard-Output-Tabellen.xlsx))
