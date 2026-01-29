@@ -113,8 +113,8 @@ Hier vergleichen wir das mittlere Vermögen der unteren Hälfte der Haushalte, d
 ![](media/people-vermoegen-untere50.png)
 :::
 
-::: {#cr-people-vermoegen-51bis11}
-![](media/people-vermoegen-51bis11.png)
+::: {#cr-people-vermoegen-50bis11}
+![](media/people-vermoegen-50bis11.png)
 :::
 
 ::: {#cr-people-vermoegen-10bis2}
@@ -133,7 +133,7 @@ Hier vergleichen wir das mittlere Vermögen der unteren Hälfte der Haushalte, d
 
 @cr-people-vermoegen-untere50 <span class="highlighted-text">Die untere Hälfte der Haushalte</span> verfügt über fünf Prozent des gesamten Vermögens privater Haushalte.
 
-@cr-people-vermoegen-51bis11 Die <span class="highlighted-text highlighted-text-green">nächsten 40 Prozent der Haushalte</span> (51. bis 11. Perzentil) verfügen über 43 Prozent.
+@cr-people-vermoegen-50bis11 Die <span class="highlighted-text highlighted-text-green">nächsten 40 Prozent der Haushalte</span> (51. bis 11. Perzentil) verfügen über 43 Prozent.
 
 @cr-people-vermoegen-10bis2 Die <span class="highlighted-text highlighted-text-blue">nächsten 9 Prozent der Haushalte</span> (10. bis 2. Perzentil) verfügen über 36 Prozent.
 
