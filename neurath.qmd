@@ -16,8 +16,13 @@ format:
 ---
 
 
-::: cr-section
+Wie ist das Vermögen in Österreich verteilt? Wer besitzt wie viel, und wie groß sind die Unterschiede? Lange Zeit fehlten verlässliche Daten, um diese Fragen zu beantworten.
 
+Das hat sich mit dem Household Finance and Consumption Survey (HFCS) geändert. Diese europaweite Befragung wurde 2010 von der Europäischen Zentralbank eingeführt. Tausende Haushalte geben dabei Auskunft über ihr Vermögen – anonym und nach einheitlichen Standards. Erstmals gibt es damit vergleichbare Daten zum privaten Vermögen in ganz Europa. Für Österreich liefert die Erhebung einen detaillierten Einblick in die Vermögenssituation der Haushalte.
+
+
+
+::: cr-section
 
 ::: {#cr-100-people}
 ![](media/100-people.png)
@@ -49,7 +54,7 @@ format:
 
 
 
-@cr-100-people Stelle dir vor, diese <em>100 Personen</em> stehen für die gesamte Bevölkerung Österreichs. <em>Eine Person repräsentiert 1 % der österreichischen Haushalte</em>. 🇦🇹 <br><br>Jeder Haushalt besitzt ein bestimmtes Vermögen.
+@cr-100-people Stelle dir vor, diese symbolischen <em>100 Personen</em> stehen für die gesamte Bevölkerung Österreichs. <em>Eine Person repräsentiert ein Prozent der österreichischen Haushalte</em>. 🇦🇹 <br><br>Jeder Haushalt besitzt ein bestimmtes Vermögen.
 
 @cr-100-people-50percent Dann sind <span class="highlighted-text">diese 50 Personen</span> hier die Hälfte der Haushalte.<br><br>Wenn man die Bevölkerung nach der Höhe ihres Vermögens ordnet, dann ist dies die  Hälfte der Haushalte mit dem geringsten Vermögen.
 
@@ -64,6 +69,8 @@ format:
 
 :::
 
+Hier vergleichen wir das mittlere Vermögen der unteren Hälfte der Haushalte, das mittlere Vermögen aller Haushalte und das durchschnittliche Vermögen des obersten Prozents.<br><br><br>
+
 ::: cr-section
 
 ::: {#cr-vermoegen-vergleich-1}
@@ -72,31 +79,29 @@ format:
 
 
 
-[@cr-vermoegen-vergleich-1] Hier vergleichen wir das mittlere Vermögen der unteren Hälfte der Haushalte, das mittlere Vermögen aller Haushalte und das durchschnittliche Vermögen des obersten Prozents.
+[@cr-vermoegen-vergleich-1] Bitte scrollen.
 
 
 [@cr-vermoegen-vergleich-1]{pan-to="0%,-20%"} Weiterscrollen!
 
 [@cr-vermoegen-vergleich-1]{pan-to="0%,-40%"} Haushalte, die Vermögen von mehr als 2,64 Mio. EUR besitzen, gehören zum obersten Prozent.
 
-[@cr-vermoegen-vergleich-1]{pan-to="0%,-80%"} Und durchschnittlich besitzen diese Haushalte 4,92 Mio. EUR.
+[@cr-vermoegen-vergleich-1]{pan-to="0%,-80%"} Und durchschnittlich besitzen diese Haushalte jeweils **4,92 Mio. EUR**.
 
 
 
 :::
 
 
-::: cr-section
 
-::: {#cr-vermoegen-vergleich-1-klein}
-![](media/vermoegen-vergleich-1.png){height="1000px"}
-:::
+<div style="width: fit-content; margin: 40px auto;">
+  <p>Also noch einmal auf einer (Computer-Monitor-)Bildschirmseite:</p></div>
+
+<div style="width: fit-content; margin: 5px auto;">
+  <p>![](media/vermoegen-vergleich-1.png){height="800px"}</p></div>
 
 
-[@cr-vermoegen-vergleich-1-klein] Also noch einmal auf einer Bildschirmseite.
-
-:::
-
+<p class="with-border">Wie verteilt sich also das gesamte Vermögen österreichischer Privathaushalte auf die untere Hälfte, den nächsten 40 Prozent, den Top 10 Prozent und dem obersten Prozent der Haushalte?</p>
 
 ::: cr-section
 
@@ -117,15 +122,23 @@ format:
 :::
 
 
+::: {#cr-people-vermoegen-top1}
+![](media/people-vermoegen-top1-more-contrast.png)
+:::
+
+
+
 
 @cr-people-vermoegen-start Los gehts!
-
 
 @cr-people-vermoegen-untere50 <span class="highlighted-text">Die untere Hälfte der Haushalte</span> verfügt über fünf Prozent des gesamten Vermögens privater Haushalte.
 
 @cr-people-vermoegen-51bis11 Die <span class="highlighted-text highlighted-text-green">nächsten 40 Prozent der Haushalte</span> (51. bis 11. Perzentil) verfügen über 43 Prozent.
 
 @cr-people-vermoegen-10bis2 Die <span class="highlighted-text highlighted-text-blue">nächsten 9 Prozent der Haushalte</span> (10. bis 2. Perzentil) verfügen über 36 Prozent.
+
+@cr-people-vermoegen-top1 Das <span class="highlighted-text highlighted-text-purple">oberste Prozent der Haushalte</span> besitzt allein 16 Prozent des gesamten Vermögens der privaten Haushalte.
+
 
 
 

@@ -1,20 +1,22 @@
-/*-- scss:defaults --*/
-
+:root {
+  --bs-body-bg: #F1F1F1;
+}
 
 body {
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 300;
   font-size: 11pt;
   color: black;
-  background-color: "#F1F1F1" !important;
 }
 
 h1 {
   font-family: 'Playfair Display', 'Times New Roman', serif;
-  font-size: 32pt;
+  font-size: 3.5em;
   text-align: center;
-  color: white;
+  color: black;
   margin: 3px 0 3px;
+  padding-bottom: 5px;
+  border-bottom: 1px black solid;
 }
 
 h2 {
@@ -46,10 +48,25 @@ hr {
 }
 
 
+
 p {
   line-height: 1.4;
   text-align: left;
+  font-size: 1.5em;
+}
+
+.narrative p {
   font-size: 1.2em;
+}
+
+
+#quarto-document-content > p {
+  padding-top: 10px;
+}
+
+#quarto-document-content > p.with-border {
+  border-top: 1px solid #222222;
+  margin-top: 40px;
 }
 
 li {
@@ -66,7 +83,8 @@ em {
   font-weight: 600;
   background-color: #32322D;
   color: white;
-  padding: 1px 3px;
+  padding: 2px 4px;
+  border-radius: 5px;
 }
 
 .highlighted-text-purple {
@@ -86,6 +104,3 @@ em {
   font-weight: 200 !important;
 }
 
-.narrative-blank {
-  background-color: red !important;
-}
