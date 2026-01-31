@@ -72,7 +72,10 @@ Das hat sich mit dem Household Finance and Consumption Survey (HFCS) geändert. 
 :::
 
 
-Hier vergleichen wir das mittlere Vermögen der unteren Hälfte der Haushalte, das mittlere Vermögen aller Haushalte und das durchschnittliche Vermögen des obersten Prozents.<br><br><br>
+Hier vergleichen wir das mittlere Vermögen der unteren Hälfte der Haushalte, das mittlere Vermögen aller Haushalte und das durchschnittliche Vermögen des obersten Prozents.
+<br><br>
+Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich – nachdem alle Haushalte nach ihrem Vermögen sortiert wurden – genau in der Mitte befindet.
+<br><br><br>
 
 ::: cr-section
 
@@ -126,7 +129,16 @@ Hier vergleichen wir das mittlere Vermögen der unteren Hälfte der Haushalte, d
 
 
 ::: {#cr-people-vermoegen-top1}
-![](media/people-vermoegen-top1-more-contrast.png)
+![](media/people-vermoegen-top1.png)
+:::
+
+
+::: {#cr-people-vermoegen-top1-10}
+![](media/people-vermoegen-top1-10.png)
+:::
+
+::: {#cr-people-vermoegen-untere90}
+![](media/people-vermoegen-untere90.png)
 :::
 
 
@@ -142,10 +154,22 @@ Hier vergleichen wir das mittlere Vermögen der unteren Hälfte der Haushalte, d
 
 @cr-people-vermoegen-top1 Das <span class="highlighted-text highlighted-text-purple">oberste Prozent der Haushalte</span> besitzt allein 16 Prozent des gesamten Vermögens der privaten Haushalte.
 
+Die Tatsache, dass das <span class="highlighted-text highlighted-text-purple">oberste Prozent der Haushalte</span> 16 Prozent des Vermögens aller privaten Haushalte besitzt, während die untere Hälfte der Haushalte zusammen lediglich über rund fünf Prozent verfügt, verdeutlicht die Ungleichheit der Privatvermögen in Österreich.
+
+@cr-people-vermoegen-top1-10 Die <span class="highlighted-text-gradient-purple-blue">obersten zehn Prozent der Haushalte</span> verfügen sogar insgesamt über mehr als die Hälfte (52 Prozent) der gesamten Vermögen.
+
+@cr-people-vermoegen-untere90 <span class="highlighted-text"> 90 Prozent der Haushalte</span> teilen sich die übrigen 48 Prozent.
 
 
+Aber diese auf einer Befragung basierenden Zahlen haben einen Nachteil: Sie unterschätzen die Vermögen besonders reicher Haushalte - und somit auch die Konzentration von Vermögen.
 
 :::
+
+
+<p class="with-border">Die Tatsache, dass das oberste Prozent der Haushalte 16 Prozent des Vermögens aller privaten Haushalte besitzt, während die untere Hälfte der Haushalte zusammen lediglich über rund fünf Prozent verfügt, verdeutlicht die Ungleichheit der Privatvermögen in Österreich.</p>
+
+
+<br><br><br><br><br><br><br>
 
 
 

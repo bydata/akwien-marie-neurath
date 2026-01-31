@@ -99,6 +99,14 @@ em {
   background-color: #2F91BD;
 }
 
+.highlighted-text-gradient-purple-blue {
+  font-weight: 600;
+  background: linear-gradient(90deg, #933689, #2F91BD);
+  color: white;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+
 
 .narrative {
   font-weight: 200 !important;
