@@ -158,7 +158,7 @@ Die Tatsache, dass das <span class="highlighted-text highlighted-text-purple">ob
 
 @cr-people-vermoegen-top1-10 Die <span class="highlighted-text-gradient-purple-blue">obersten zehn Prozent der Haushalte</span> verfügen sogar insgesamt über mehr als die Hälfte (52 Prozent) der gesamten Vermögen.
 
-@cr-people-vermoegen-untere90 <span class="highlighted-text"> 90 Prozent der Haushalte</span> teilen sich die übrigen 48 Prozent.
+@cr-people-vermoegen-untere90 <span class="highlighted-text-gradient-green-black"> 90 Prozent der Haushalte</span> teilen sich die übrigen 48 Prozent.
 
 
 Aber diese auf einer Befragung basierenden Zahlen haben einen Nachteil: Sie unterschätzen die Vermögen besonders reicher Haushalte - und somit auch die Konzentration von Vermögen.
