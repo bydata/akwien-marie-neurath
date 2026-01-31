@@ -24,6 +24,14 @@ Das hat sich mit dem Household Finance and Consumption Survey (HFCS) geändert. 
 
 ::: cr-section
 
+::: {#cr-vermoegen}
+![](media/vermoegen-klein.png)
+:::
+
+@cr-vermoegen <span class="highlighted-text">Vermögen</span> sind alle in Geld bewerteten dauerhaften Güter und Rechte wie Grundbesitz, Wertpapiere oder Bargeld einer Person oder eines privaten Haushalts.
+
+
+
 ::: {#cr-100-people}
 ![](media/100-people.png)
 :::
@@ -48,13 +56,10 @@ Das hat sich mit dem Household Finance and Consumption Survey (HFCS) geändert. 
 :::
 
 
-::: {#cr-vermoegen}
-![](media/vermoegen-klein.png)
-:::
 
 
-
-@cr-100-people Stelle dir vor, diese symbolischen <em>100 Personen</em> stehen für die gesamte Bevölkerung Österreichs. <em>Eine Person repräsentiert ein Prozent der österreichischen Haushalte</em>. 🇦🇹 <br><br>Jeder Haushalt besitzt ein bestimmtes Vermögen.
+@cr-100-people Stelle dir vor, diese symbolischen <em>100 Personen</em> stehen für die gesamte Bevölkerung Österreichs.
+<br><br><em>Eine Person repräsentiert ein Prozent der österreichischen Haushalte</em>. 🇦🇹 <br><br>Jeder Haushalt besitzt ein bestimmtes Vermögen.
 
 @cr-100-people-50percent Dann sind <span class="highlighted-text">diese 50 Personen</span> hier die Hälfte der Haushalte.<br><br>Wenn man die Bevölkerung nach der Höhe ihres Vermögens ordnet, dann ist dies die  Hälfte der Haushalte mit dem geringsten Vermögen.
 
@@ -64,10 +69,8 @@ Das hat sich mit dem Household Finance and Consumption Survey (HFCS) geändert. 
 
 @cr-100-people-semitransparent Wie teilt sich nun das Vermögen unter diesen 100 Haushalten in Österreich auf?
 
-
-@cr-vermoegen <span class="highlighted-text">Vermögen</span> sind alle in Geld bewerteten dauerhaften Güter und Rechte wie Grundbesitz, Wertpapiere oder Bargeld einer Person oder eines privaten Haushalts.
-
 :::
+
 
 Hier vergleichen wir das mittlere Vermögen der unteren Hälfte der Haushalte, das mittlere Vermögen aller Haushalte und das durchschnittliche Vermögen des obersten Prozents.<br><br><br>
 
