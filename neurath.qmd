@@ -13,6 +13,7 @@ format:
       narrative-background-color-overlay: "#FFFFFFF2"
       section-background-color: "#F1F1F1"
       narrative-border-radius: 5px
+      narrative-font-family: "Playfair Display"
 ---
 
 
@@ -28,48 +29,61 @@ Das hat sich mit dem Household Finance and Consumption Survey (HFCS) geändert. 
 ![](media/vermoegen-klein.png)
 :::
 
+::: {#cr-haushalte}
+![](media/haushalte.png)
+:::
+
+
+::: {#cr-haus}
+![](media/haus-schwarz.png)
+:::
+
+
 @cr-vermoegen <span class="highlighted-text">Vermögen</span> sind alle in Geld bewerteten dauerhaften Güter und Rechte wie Grundbesitz, Wertpapiere oder Bargeld einer Person oder eines privaten Haushalts.
 
+@cr-haushalte Der Begriff <span class="highlighted-text">Haushalt</span> bezeichnet eine allein lebende Person oder eine Gruppe von Personen, die zusammen in derselben privaten Wohnung leben und sich die Ausgaben teilen, einschließlich der gemeinsamen Beschaffung lebensnotwendiger Dinge.
 
 
-::: {#cr-100-people}
-![](media/100-people.png)
+
+
+::: {#cr-100-haushalte}
+![](media/haushalte-100-grau.png)
 :::
 
-::: {#cr-100-people-semitransparent}
-![](media/100-people.png){style="opacity: 0.1;"}
-:::
-
-
-::: {#cr-100-people-50percent}
-![](media/100-people-50-percent.png)
-:::
-
-
-::: {#cr-100-people-10percent}
-![](media/100-people-10-percent.png)
+::: {#cr-100-haushalte-semitransparent}
+![](media/haushalte-100.png){style="opacity: 0.1;"}
 :::
 
 
-::: {#cr-100-people-1percent}
-![](media/100-people-1-percent.png)
+::: {#cr-100-haushalte-untere50}
+![](media/haushalte-100-untere50.png)
+:::
+
+
+::: {#cr-100-haushalte-top10}
+![](media/haushalte-100-top10.png)
+:::
+
+
+::: {#cr-100-haushalte-top1}
+![](media/haushalte-100-top1.png)
 :::
 
 
 
 
-@cr-100-people Stelle dir vor, diese symbolischen <em>100 Personen</em> stehen für die gesamte Bevölkerung Österreichs.
-<br><br><em>Eine Person repräsentiert ein Prozent der österreichischen Haushalte</em>. 🇦🇹 <br><br>Jeder Haushalt besitzt ein bestimmtes Vermögen.
+@cr-100-haushalte Stelle dir vor, diese <em>100 Haushalte</em> stehen für die alle privaten Haushalte Österreichs.
+<br><br><em>Ein Haushalt repräsentiert ein Prozent der österreichischen Haushalte</em>. 🇦🇹 <br><br>Jeder Haushalt besitzt ein bestimmtes Vermögen.
 
-@cr-100-people-50percent Dann sind <span class="highlighted-text">diese 50 Personen</span> hier die Hälfte der Haushalte.<br><br>Wenn man die Bevölkerung nach der Höhe ihres Vermögens ordnet, dann ist dies die  Hälfte der Haushalte mit dem geringsten Vermögen.
+@cr-100-haushalte-untere50 Dann sind <span class="highlighted-text">diese 50 Haushalte</span> hier die Hälfte der Haushalte.<br><br>Wenn man die privaten Haushalte nach der Höhe ihres Vermögens ordnet, dann ist dies die  Hälfte der Haushalte <em>mit dem geringsten Vermögen</em>.
 
-<span class="highlighted-text">Diese zehn Haushalte</span> besitzen das höchste Vermögen. @cr-100-people-10percent 
+<span class="highlighted-text">Diese zehn Haushalte</span> besitzen das höchste Vermögen. @cr-100-haushalte-top10
 
-@cr-100-people-1percent Und dann gibt es unter diesen zehn Haushalten <span class="highlighted-text highlighted-text-purple">einen Haushalt</span> mit dem höchsten Vermögen.
-
-@cr-100-people-semitransparent Wie teilt sich nun das Vermögen unter diesen 100 Haushalten in Österreich auf?
+@cr-100-haushalte-top1 Und dann gibt es unter diesen zehn Haushalten <span class="highlighted-text highlighted-text-purple">einen Haushalt</span> mit dem höchsten Vermögen.
 
 :::
+
+## Wie teilt sich nun das Vermögen unter diesen 100 Haushalten in Österreich auf?
 
 
 Hier vergleichen wir das mittlere Vermögen der unteren Hälfte der Haushalte, das mittlere Vermögen aller Haushalte und das durchschnittliche Vermögen des obersten Prozents.
@@ -95,7 +109,6 @@ Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich 
 [@cr-vermoegen-vergleich-1]{pan-to="0%,-80%"} Und durchschnittlich besitzen diese Haushalte jeweils **4,92 Mio. EUR**.
 
 
-
 :::
 
 
@@ -107,72 +120,92 @@ Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich 
   <p>![](media/vermoegen-vergleich-1.png){height="800px"}</p></div>
 
 
-<p class="with-border">Wie verteilt sich also das gesamte Vermögen österreichischer Privathaushalte auf die untere Hälfte, den nächsten 40 Prozent, den Top 10 Prozent und dem obersten Prozent der Haushalte?</p>
+Wie verteilt sich also das gesamte Vermögen österreichischer Privathaushalte auf die untere Hälfte, den nächsten 40 Prozent, den Top 10 Prozent und dem obersten Prozent der Haushalte?
 
 ::: cr-section
 
-::: {#cr-people-vermoegen-start}
-![](media/people-vermoegen-start.png)
+::: {#cr-haushalte-vermoegen-start}
+![](media/haushalte-vermoegen-start.png)
 :::
 
-::: {#cr-people-vermoegen-untere50}
-![](media/people-vermoegen-untere50.png)
+::: {#cr-haushalte-vermoegen-untere50}
+![](media/haushalte-vermoegen-untere50.png)
 :::
 
-::: {#cr-people-vermoegen-50bis11}
-![](media/people-vermoegen-50bis11.png)
+::: {#cr-haushalte-vermoegen-50bis11}
+![](media/haushalte-vermoegen-50bis11.png)
 :::
 
-::: {#cr-people-vermoegen-10bis2}
-![](media/people-vermoegen-10bis2.png)
-:::
-
-
-::: {#cr-people-vermoegen-top1}
-![](media/people-vermoegen-top1.png)
+::: {#cr-haushalte-vermoegen-10bis2}
+![](media/haushalte-vermoegen-10bis2.png)
 :::
 
 
-::: {#cr-people-vermoegen-top1-10}
-![](media/people-vermoegen-top1-10.png)
-:::
-
-::: {#cr-people-vermoegen-untere90}
-![](media/people-vermoegen-untere90.png)
+::: {#cr-haushalte-vermoegen-top1}
+![](media/haushalte-vermoegen-top1.png)
 :::
 
 
+::: {#cr-haushalte-vermoegen-top1-10}
+![](media/haushalte-vermoegen-top1-10.png)
+:::
+
+::: {#cr-haushalte-vermoegen-untere90}
+![](media/haushalte-vermoegen-untere90.png)
+:::
 
 
-@cr-people-vermoegen-start Los gehts!
 
-@cr-people-vermoegen-untere50 <span class="highlighted-text">Die untere Hälfte der Haushalte</span> verfügt über fünf Prozent des gesamten Vermögens privater Haushalte.
 
-@cr-people-vermoegen-50bis11 Die <span class="highlighted-text highlighted-text-green">nächsten 40 Prozent der Haushalte</span> (51. bis 11. Perzentil) verfügen über 43 Prozent.
+@cr-haushalte-vermoegen-start Los gehts!
 
-@cr-people-vermoegen-10bis2 Die <span class="highlighted-text highlighted-text-blue">nächsten 9 Prozent der Haushalte</span> (10. bis 2. Perzentil) verfügen über 36 Prozent.
+@cr-haushalte-vermoegen-untere50 <span class="highlighted-text">Die untere Hälfte der Haushalte</span> verfügt über fünf Prozent des gesamten Vermögens privater Haushalte.
 
-@cr-people-vermoegen-top1 Das <span class="highlighted-text highlighted-text-purple">oberste Prozent der Haushalte</span> besitzt allein 16 Prozent des gesamten Vermögens der privaten Haushalte.
+@cr-haushalte-vermoegen-50bis11 Die <span class="highlighted-text highlighted-text-green">nächsten 40 Prozent der Haushalte</span> (51. bis 11. Perzentil) verfügen über 43 Prozent.
+
+@cr-haushalte-vermoegen-10bis2 Die <span class="highlighted-text highlighted-text-blue">nächsten 9 Prozent der Haushalte</span> (10. bis 2. Perzentil) verfügen über 36 Prozent.
+
+@cr-haushalte-vermoegen-top1 Das <span class="highlighted-text highlighted-text-purple">oberste Prozent der Haushalte</span> besitzt allein 16 Prozent des gesamten Vermögens der privaten Haushalte.
 
 Die Tatsache, dass das <span class="highlighted-text highlighted-text-purple">oberste Prozent der Haushalte</span> 16 Prozent des Vermögens aller privaten Haushalte besitzt, während die untere Hälfte der Haushalte zusammen lediglich über rund fünf Prozent verfügt, verdeutlicht die Ungleichheit der Privatvermögen in Österreich.
 
-@cr-people-vermoegen-top1-10 Die <span class="highlighted-text-gradient-purple-blue">obersten zehn Prozent der Haushalte</span> verfügen sogar insgesamt über mehr als die Hälfte (52 Prozent) der gesamten Vermögen.
+@cr-haushalte-vermoegen-top1-10 Die <span class="highlighted-text-gradient-purple-blue">obersten zehn Prozent der Haushalte</span> verfügen sogar insgesamt über mehr als die Hälfte (52 Prozent) der gesamten Vermögen.
 
-@cr-people-vermoegen-untere90 <span class="highlighted-text-gradient-green-black"> 90 Prozent der Haushalte</span> teilen sich die übrigen 48 Prozent.
+@cr-haushalte-vermoegen-untere90 <span class="highlighted-text-gradient-green-black"> 90 Prozent der Haushalte</span> teilen sich die übrigen 48 Prozent.
 
 
-Aber diese auf einer Befragung basierenden Zahlen haben einen Nachteil: Sie unterschätzen die Vermögen besonders reicher Haushalte - und somit auch die Konzentration von Vermögen.
+Aber diese auf einer Befragung basierenden Zahlen haben einen Nachteil: Sie <em>unterschätzen</em> die Höhe der Vermögen besonders reicher Haushalte - und somit auch die Konzentration von Vermögen an der Spitze der Verteilung.
 
 :::
 
+## 
 
-<p class="with-border">Die Tatsache, dass das oberste Prozent der Haushalte 16 Prozent des Vermögens aller privaten Haushalte besitzt, während die untere Hälfte der Haushalte zusammen lediglich über rund fünf Prozent verfügt, verdeutlicht die Ungleichheit der Privatvermögen in Österreich.</p>
+Für die HFCS-Erhebung wird eine Stichprobe von Haushalten in Österreich befragt.
+Eine ideale Stichprobe repräsentiert Haushalte verschiedener Gruppen gleichmäßig und erlaubt valide Aussagen über die Grundgesamtheit, also die privaten Haushalte in Österreich.
+<br><br>
+Beim HFCS sind jedoch wohlhabendere Haushalte unterrepräsentiert.
+
+## Was sind die Gründe für die Untererfassung vermögender Haushalte?
+
+Es gibt drei Hauptgründe, warum das Gesamtvermögen und die Ungleichheit in einer Gesellschaft in Umfragen meist zu niedrig eingeschätzt werden:
+
+<em class="highlighted-text">Nicht-Beobachtung:</em>
+Superreiche Haushalte sind extrem selten. Bei einer zufälligen Stichprobe ist die Chance daher sehr gering, dass überhaupt einer dieser wenigen Multimillionäre oder Milliardäre ausgewählt wird. Da ihre Vermögen in der Rechnung fehlen, wird das Gesamtvermögen eines Landes unterschätzt
+
+<em class="highlighted-text">Systematische Antwortverweigerung:</em>
+Studien zeigen, dass besonders reiche Menschen seltener bereit sind, Auskunft über ihr Geld zu geben. Wenn aber gerade die Spitzenreiter die Antwort verweigern, entsteht ein verzerrtes Bild (Selektionsbias), und die Schere zwischen Arm und Reich erscheint kleiner, als sie in der Realität ist.
+
+<em class="highlighted-text">Untererfassung:</em>
+Selbst wenn reiche Haushalte an der Umfrage teilnehmen, geben sie oft nicht den vollen Wert ihres Besitzes an. Das kann absichtlich geschehen (um den Reichtum zu verbergen) oder unabsichtlich (weil der genaue Wert von Immobilien oder Firmenanteilen schwer zu schätzen ist). In beiden Fällen werden die Zahlen in der Statistik zu niedrig angesetzt.
+
+
+
 
 
 <br><br><br><br><br><br><br>
 
 
-
+<hr>
 ## Quellen
 
 * Heck, Ines, Anna Hornykewycz, Jakob Kapeller, Rafael Wildauer (2024): Vermögensverteilung in Österreich: Eine Analyse auf Basis des HFCS 2021/22. In: Materialien zu Wirtschaft und Gesellschaft Nr. 255. Working Paper-Reihe der AK Wien.
