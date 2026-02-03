@@ -76,6 +76,11 @@ p {
   margin-top: 40px;
 }
 
+ul {
+  max-width: 100ch;
+  margin-inline: auto;  
+}
+
 li {
   font-weight: 300 !important;
   font-size: 1.1em;
@@ -105,6 +110,12 @@ em {
 .highlighted-text-blue {
   background-color: #2F91BD;
 }
+
+
+.highlighted-text-grey{
+  background-color: #A3A3A388;
+}
+
 
 .highlighted-text-gradient-purple-blue {
   font-weight: 600;
