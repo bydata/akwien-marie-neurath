@@ -1,5 +1,8 @@
 ---
 title: Vermögensverteilung in Österreich
+execute: 
+  warning: false
+  message: false
 css:
   - css/styles.css
   - css/playfair-display.css
@@ -20,7 +23,6 @@ format:
 Wie ist das Vermögen in Österreich verteilt? Wer besitzt wie viel, und wie groß sind die Unterschiede? Lange Zeit fehlten verlässliche Daten, um diese Fragen zu beantworten.
 
 Das hat sich mit dem Household Finance and Consumption Survey (HFCS) geändert. Diese europaweite Befragung wurde 2010 von der Europäischen Zentralbank eingeführt. Tausende Haushalte geben dabei Auskunft über ihr Vermögen – anonym und nach einheitlichen Standards. Erstmals gibt es damit vergleichbare Daten zum privaten Vermögen in ganz Europa. Für Österreich liefert die Erhebung einen detaillierten Einblick in die Vermögenssituation der Haushalte.
-
 
 
 ::: cr-section
@@ -83,11 +85,13 @@ Das hat sich mit dem Household Finance and Consumption Survey (HFCS) geändert. 
 
 :::
 
-## Wie teilt sich nun das Vermögen unter diesen 100 Haushalten in Österreich auf?
 
+Hier vergleichen wir...
 
-Hier vergleichen wir das mittlere Vermögen der unteren Hälfte der Haushalte, das mittlere Vermögen aller Haushalte und das durchschnittliche Vermögen des obersten Prozents.
-<br><br>
+\- das mittlere Vermögen der unteren Hälfte der Haushalte<br>
+\- das mittlere Vermögen aller Haushalte und<br>
+\- das durchschnittliche Vermögen des obersten Prozents.<br>
+
 Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich – nachdem alle Haushalte nach ihrem Vermögen sortiert wurden – genau in der Mitte befindet.
 <br><br><br>
 
@@ -113,17 +117,16 @@ Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich 
 
 
 
-<div style="width: fit-content; margin: 40px auto;">
+<div style="width: fit-content; margin: 2vh auto;">
   <p>Also noch einmal auf einer (Computer-Monitor-)Bildschirmseite:</p></div>
 
 <div style="width: fit-content; margin: 5px auto;">
-  <p>![](media/vermoegen-vergleich-1.png){height="700px"}</p></div>
+  <p>![](media/vermoegen-vergleich-1.png){height="800px"}</p></div>
 
 
 
-## 
+## Wie teilt sich das Vermögen unter den Haushalten in Österreich auf?
 
-Wie verteilt sich also das gesamte Vermögen österreichischer Privathaushalte auf die untere Hälfte, den nächsten 40 Prozent, den Top 10 Prozent und dem obersten Prozent der Haushalte?
 
 ::: cr-section
 
@@ -158,9 +161,7 @@ Wie verteilt sich also das gesamte Vermögen österreichischer Privathaushalte a
 :::
 
 
-
-
-@cr-haushalte-vermoegen-start Los gehts!
+@cr-haushalte-vermoegen-start Jedes Haus repräsentiert wieder ein Prozent der privaten Haushalte; jede Münze ein Prozent des Vermögens.
 
 @cr-haushalte-vermoegen-untere50 <span class="highlighted-text">Die untere Hälfte der Haushalte</span> verfügt über fünf Prozent des gesamten Vermögens privater Haushalte.
 
@@ -174,29 +175,33 @@ Die Tatsache, dass das <span class="highlighted-text highlighted-text-purple">ob
 
 @cr-haushalte-vermoegen-top1-10 Die <span class="highlighted-text-gradient-purple-blue">obersten zehn Prozent der Haushalte</span> verfügen sogar insgesamt über mehr als die Hälfte (52 Prozent) der gesamten Vermögen.
 
-@cr-haushalte-vermoegen-untere90 <span class="highlighted-text-gradient-green-black"> 90 Prozent der Haushalte</span> teilen sich die übrigen 48 Prozent.
+@cr-haushalte-vermoegen-untere90 <span class="highlighted-text-gradient-green-black"> 90 Prozent der Haushalte</span> teilen sich die andere Hälfte des Gesamtvermögens.
 
 
-Aber diese auf einer Befragung basierenden Zahlen haben einen Nachteil: Sie <em>unterschätzen</em> die Höhe der Vermögen besonders reicher Haushalte - und somit auch die Konzentration von Vermögen an der Spitze der Verteilung.
+<em>Aber:</em> Diese Zahlen erzählen nicht die ganze Geschichte. Es gibt ein systematisches Problem:
+
+Große Firmenimperien, Stiftungen und diskretes Privatvermögen tauchen in Haushaltsbefragungen kaum auf.<br><br>
+Wer wirklich reich ist, wird von Zufallsstichproben oft schlicht nicht erfasst. Solche Befragungen <em>unterschätzen</em> die Höhe der Vermögen besonders reicher Haushalte - und somit auch die Konzentration von Vermögen an der Spitze der Verteilung.
 
 :::
 
-## 
+
+## Was sind die Gründe für die Untererfassung vermögender Haushalte?
 
 Für die HFCS-Erhebung wird eine Stichprobe von Haushalten in Österreich befragt.
+
 Eine ideale Stichprobe repräsentiert Haushalte verschiedener Gruppen gleichmäßig und erlaubt valide Aussagen über die Grundgesamtheit, also die privaten Haushalte in Österreich.
 <br><br>
 Beim HFCS sind jedoch wohlhabendere Haushalte unterrepräsentiert.
 
-## Was sind die Gründe für die Untererfassung vermögender Haushalte?
 
 Es gibt drei Hauptgründe, warum das Gesamtvermögen und die Ungleichheit in einer Gesellschaft in Umfragen meist zu niedrig eingeschätzt werden:
 
 <em class="highlighted-text">Nicht-Beobachtung:</em>
-Superreiche Haushalte sind extrem selten. Bei einer zufälligen Stichprobe ist die Chance daher sehr gering, dass überhaupt einer dieser wenigen Multimillionäre oder Milliardäre ausgewählt wird. Da ihre Vermögen in der Rechnung fehlen, wird das Gesamtvermögen eines Landes unterschätzt
+Sehr vermögende Haushalte sind sehr selten. Bei einer zufälligen Stichprobe ist die Chance daher sehr gering, dass überhaupt einer dieser wenigen Multimillionäre oder Milliardäre ausgewählt wird. Da ihre Vermögen in der Rechnung fehlen, wird das Gesamtvermögen eines Landes unterschätzt
 
 <em class="highlighted-text">Systematische Antwortverweigerung:</em>
-Studien zeigen, dass besonders reiche Menschen seltener bereit sind, Auskunft über ihr Geld zu geben. Wenn aber gerade die Spitzenreiter die Antwort verweigern, entsteht ein verzerrtes Bild (Selektionsbias), und die Schere zwischen Arm und Reich erscheint kleiner, als sie in der Realität ist.
+Studien zeigen, dass besonders reiche Menschen seltener bereit sind, Auskunft über ihr Vermögen zu geben. Wenn aber gerade die Spitzenreiter die Antwort verweigern, entsteht ein verzerrtes Bild (Selektionsbias), und die Schere zwischen Arm und Reich erscheint kleiner, als sie in der Realität ist.
 
 <em class="highlighted-text">Untererfassung:</em>
 Selbst wenn reiche Haushalte an der Umfrage teilnehmen, geben sie oft nicht den vollen Wert ihres Besitzes an. Das kann absichtlich geschehen (um den Reichtum zu verbergen) oder unabsichtlich (weil der genaue Wert von Immobilien oder Firmenanteilen schwer zu schätzen ist). In beiden Fällen werden die Zahlen in der Statistik zu niedrig angesetzt.
@@ -204,15 +209,52 @@ Selbst wenn reiche Haushalte an der Umfrage teilnehmen, geben sie oft nicht den 
 
 ## Wie kann man sich der tatsächlichen Vermögensverteilung annähern?
 
-- Reichstenlisten (S. 13)
-- Steuerdaten (S. 14)
-- Volkswirtschaftliche Gesamtrechnungen (S. 14)
+Um ein realistisches Gesamtbild zu zeichnen, können die Befragungsdaten anhand der trend.-Reichstenliste ergänzt werden. Dieses Verfahren macht jene Vermögen sichtbar, die in der Haushaltsbefragung sonst unterrepräsentiert bleiben.
 
 
-"Schätzung der Verteilungsspitze" - Methoden der Datenanpassung
+Zwischen dem Vermögen des <span class="highlighted-text highlighted-text-purple">reichsten Haushalts der Umfrage</span> (ca. 12 Mio. Euro) und dem Vermögen auf dem <span class="highlighted-text">untersten Rang der Reichstenliste</span> (290 Mio. Euro) klafft ein riesiges Loch.
+
+<br>
+```{r circle-chart, out.width = "95%", fig.width=8}
+library(ggplot2)
+df_rich <- data.frame(
+  label = c("Reichster Haushalt in der Umfrage",
+            "Unterster Rang der Reichenliste"),
+  net_worth = c(12, 290)
+)
+
+ggplot(df_rich, aes(x = 1, y = 1)) +
+  geom_point(
+    aes(size = net_worth, color = label),
+    stroke = 0.5) +
+  geom_text(
+    aes(label = paste(net_worth, "Mio.\nEUR")),
+    color = "white", family = "Roboto Bold"
+  ) +
+  scale_x_discrete(position = "top") +
+  scale_size_area(max_size = 120) +
+  scale_color_manual(values = c("#933689", "#32322D")) +
+  coord_cartesian(clip = "off") +
+  guides(size = "none", color = "none") +
+  facet_wrap(vars(label)) +
+  theme_void(base_family = "Playfair Display", paper = "#F1F1F1") +
+  theme(
+    strip.text = element_text(size = 14, lineheight = 2),
+    panel.spacing.x = unit(2, "cm")
+  )
+
+```
+
+Mithilfe der Pareto-Verteilung lässt sich mathematisch herleiten, wie sich das Vermögen in der Gruppe der sehr Reichen wahrscheinlich verteilt. Das Modell erlaubt es, die statistische Lücke zwischen der breiten Bevölkerung und den Superreichen präzise zu schließen, indem es die Anzahl und den Reichtum jener Haushalte schätzt, die von herkömmlichen Umfragen nicht erfasst werden.
+
+Ab einer Grenze von vier Millionen Euro werden die Befragungswerte durch statistisch modellierte Haushalte ersetzt. Ziel ist es, die tatsächliche Konzentration am oberen Rand der Verteilung in Österreich realitätsgetreu abzubilden.
+
+Damit statistische Ausreißer das Ergebnis nicht künstlich aufblähen, wurde eine Obergrenze eingezogen: Vermögenswerte werden bei zehn Milliarden Euro gedeckelt. Selbst wenn das mathematische Modell theoretisch noch höhere Extremwerte zulassen würde, stellt dieser "Deckel" sicher, dass das Gesamtbild nicht durch einzelne Schätzwerte verzerrt wird.
+
+Nach dieser statistischen Anpassung zeigt sich ein genaueres Bild der der Vermögen in der Spitze.
 
 
-Nach dieser "Datenanpassung" stellt sich die Vermögensverteilung so dar:
+Die Vermögensverteilung in Österreich stellt sich nun wie folgt dar:
 
 ::: cr-section
 
@@ -243,7 +285,7 @@ Nach dieser "Datenanpassung" stellt sich die Vermögensverteilung so dar:
 
 @cr-muenzen-top-1-roh Auf Grundlage der Befragungsdaten besitzt das <span class="highlighted-text highlighted-text-purple">oberste Prozent der Haushalte</span> 16 Prozent der privaten Vermögen in Österreich.
 
-@cr-muenzen-top-1-adj Wenn man schätzt, wie hoch das tatsächliche Vermögen des obersten Prozent ausfällt, dann sind es allerdings <em>41 Prozent</em>.
+@cr-muenzen-top-1-adj Wenn man mit dem beschriebenen Verfahren schätzt, wie hoch das tatsächliche Vermögen des obersten Prozent ausfällt, dann sind es allerdings <em>41 Prozent</em>.
 
 @cr-haushalte-1-lila-99-grau <span class="highlighted-text highlighted-text-purple">Ein Haushalt</span> besitzt mit 41 % also gar nicht so viel weniger als die <span class="highlighted-text highlighted-text-grey">99 übrigen Haushalte</span>.
 
@@ -251,8 +293,13 @@ Nach dieser "Datenanpassung" stellt sich die Vermögensverteilung so dar:
 
 Und die untere Hälfte der Haushalte?
 
-@cr-haushalte-untere50-adj Ihr Anteil am Gesamtvermögen privater Haushalte beträgt nach der Anpassung lediglich <span class="highlighted-text">drei Prozent</span>.
+@cr-haushalte-untere50-adj Ihr Anteil am Gesamtvermögen privater Haushalte beträgt nach der Anpassung lediglich <span class="highlighted-text">drei Prozent</span> (statt fünf Prozent).
+
+
 :::
+
+
+
 
 
 <br><br><br><br><br><br><br>
