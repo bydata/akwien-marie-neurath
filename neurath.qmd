@@ -1,5 +1,5 @@
 ---
-title: Vermögensverteilung in Österreich
+title: Wem gehört der Wohlstand in Österreich?
 execute: 
   warning: false
   message: false
@@ -20,10 +20,13 @@ format:
 ---
 
 
-Wie ist das Vermögen in Österreich verteilt? Wer besitzt wie viel, und wie groß sind die Unterschiede? Lange Zeit fehlten verlässliche Daten, um diese Fragen zu beantworten.
+Österreich gilt als reiches Land. Doch hinter den Durchschnittszahlen verbirgt sich eine Frage, auf die es lange Zeit keine klaren Antworten gab: Wie genau ist dieser Reichtum eigentlich verteilt? Wer besitzt wie viel, und wo beginnt die echte Spitze?
 
-Das hat sich mit dem Household Finance and Consumption Survey (HFCS) geändert. Diese europaweite Befragung wurde 2010 von der Europäischen Zentralbank eingeführt. Tausende Haushalte geben dabei Auskunft über ihr Vermögen – anonym und nach einheitlichen Standards. Erstmals gibt es damit vergleichbare Daten zum privaten Vermögen in ganz Europa. Für Österreich liefert die Erhebung einen detaillierten Einblick in die Vermögenssituation der Haushalte.
+Lange Zeit fehlten verlässliche Daten, um das Vermögen der Privathaushalte zu messen. Das änderte sich mit dem <a href="https://www.ecb.europa.eu/pub/research-networks/html/hfcn_faq_2021_wave.en.html" target="_new">Household Finance and Consumption Survey (HFCS)</a>. Diese europaweite Erhebung der Zentralbanken liefert erstmals detaillierte Einblicke in die Finanzen der Haushalte.
 
+Doch wie präzise sind solche Umfragen wirklich? Besonders an der Spitze der Gesellschaft ist Reichtum oft schwer zu fassen. Um herauszufinden, ob die offiziellen Zahlen das wahre Ausmaß der Ungleichheit abbilden, muss man über die Befragungen hinausblicken.
+
+Diese interaktive Auswertung nimmt dich mit auf eine Spurensuche: Wir betrachten zuerst die bekannten Fakten und untersuchen dann, was passiert, wenn wir die &bdquo;blinden Flecken&rdquo; der Statistik ausleuchten.
 
 ::: cr-section
 
@@ -45,7 +48,7 @@ Das hat sich mit dem Household Finance and Consumption Survey (HFCS) geändert. 
 
 @cr-haushalte Der Begriff <span class="highlighted-text">Haushalt</span> bezeichnet eine allein lebende Person oder eine Gruppe von Personen, die zusammen in derselben privaten Wohnung leben und sich die Ausgaben teilen, einschließlich der gemeinsamen Beschaffung lebensnotwendiger Dinge.
 
-
+In Österreich gibt es rund 4,1 Millionen Privathaushalte. Hinter dieser Zahl verbergen sich viele verschiedene Haushaltsformen, etwa Familien, Alleinlebende, Wohngemeinschaften oder Mehrgenerationenhäuser. Statistisch gesehen zählt jede Gruppe von Menschen als Haushalt, die sich eine Wohnung teilt und die Kosten für das tägliche Leben gemeinsam trägt.
 
 
 ::: {#cr-100-haushalte}
@@ -196,14 +199,37 @@ Beim HFCS sind jedoch wohlhabendere Haushalte unterrepräsentiert.
 
 Es gibt drei Hauptgründe, warum das Gesamtvermögen und die Ungleichheit in einer Gesellschaft in Umfragen meist zu niedrig eingeschätzt werden:
 
-<em class="highlighted-text">Nicht-Beobachtung:</em>
-Sehr vermögende Haushalte sind sehr selten. Bei einer zufälligen Stichprobe ist die Chance daher sehr gering, dass überhaupt einer dieser wenigen Multimillionäre oder Milliardäre ausgewählt wird. Da ihre Vermögen in der Rechnung fehlen, wird das Gesamtvermögen eines Landes unterschätzt
+::: cr-section
 
-<em class="highlighted-text">Systematische Antwortverweigerung:</em>
+::: {#cr-viele-haushalte-2-lila}
+<div style="text-align:center">![](media/viele-haushalte-2-lila.png){width="70%" height="70%"}</div>
+:::
+
+::: {#cr-viele-haushalte-2-lila-stichprobe}
+<div style="text-align:center">![](media/viele-haushalte-2-lila-stichprobe.png){width="70%" height="70%"}</div>
+:::
+
+::: {#cr-viele-haushalte-2-lila-stichprobe-verweigerung}
+<div style="text-align:center">![](media/viele-haushalte-2-lila-stichprobe-verweigerung.png){width="70%" height="70%"}</div>
+:::
+
+::: {#cr-vermoegen-untererfassung}
+<div style="text-align:center">![](media/vermoegen-untererfassung.png){width="632px" height="456px"}</div>
+:::
+
+
+@cr-viele-haushalte-2-lila <em>Nicht-Beobachtung:</em><br><br>
+<span class="highlighted-text highlighted-text-purple">Sehr vermögende Haushalte</span> sind sehr selten.
+
+@cr-viele-haushalte-2-lila-stichprobe Bei einer <span class="highlighted-text highlighted-text-orange">zufälligen Stichprobe</span> ist die Chance daher sehr gering, dass überhaupt einer dieser wenigen Multimillionäre oder Milliardäre ausgewählt wird. Da ihre Vermögen in der Rechnung fehlen, wird das Gesamtvermögen eines Landes unterschätzt.
+
+@cr-viele-haushalte-2-lila-stichprobe-verweigerung <em>Systematische Antwortverweigerung:</em><br><br>
 Studien zeigen, dass besonders reiche Menschen seltener bereit sind, Auskunft über ihr Vermögen zu geben. Wenn aber gerade die Spitzenreiter die Antwort verweigern, entsteht ein verzerrtes Bild (Selektionsbias), und die Schere zwischen Arm und Reich erscheint kleiner, als sie in der Realität ist.
 
-<em class="highlighted-text">Untererfassung:</em>
+@cr-vermoegen-untererfassung <em>Untererfassung:</em><br><br>
 Selbst wenn reiche Haushalte an der Umfrage teilnehmen, geben sie oft nicht den vollen Wert ihres Besitzes an. Das kann absichtlich geschehen (um den Reichtum zu verbergen) oder unabsichtlich (weil der genaue Wert von Immobilien oder Firmenanteilen schwer zu schätzen ist). In beiden Fällen werden die Zahlen in der Statistik zu niedrig angesetzt.
+
+:::
 
 
 ## Wie kann man sich der tatsächlichen Vermögensverteilung annähern?
@@ -248,7 +274,7 @@ Mithilfe der Pareto-Verteilung lässt sich mathematisch herleiten, wie sich das 
 
 Ab einer Grenze von vier Millionen Euro werden die Befragungswerte durch statistisch modellierte Haushalte ersetzt. Ziel ist es, die tatsächliche Konzentration am oberen Rand der Verteilung in Österreich realitätsgetreu abzubilden.
 
-Damit statistische Ausreißer das Ergebnis nicht künstlich aufblähen, wurde eine Obergrenze eingezogen: Vermögenswerte werden bei zehn Milliarden Euro gedeckelt. Selbst wenn das mathematische Modell theoretisch noch höhere Extremwerte zulassen würde, stellt dieser "Deckel" sicher, dass das Gesamtbild nicht durch einzelne Schätzwerte verzerrt wird.
+Damit statistische Ausreißer das Ergebnis nicht künstlich aufblähen, wurde eine Obergrenze eingezogen: Vermögenswerte werden bei zehn Milliarden Euro gedeckelt. Selbst wenn das mathematische Modell theoretisch noch höhere Extremwerte zulassen würde, stellt dieser &bdquo;Deckel&rdquo; sicher, dass das Gesamtbild nicht durch einzelne Schätzwerte verzerrt wird.
 
 Nach dieser statistischen Anpassung zeigt sich ein genaueres Bild der der Vermögen in der Spitze.
 
@@ -298,7 +324,7 @@ Und die untere Hälfte der Haushalte?
 :::
 
 
-
+Erst der Blick hinter die statistischen Lücken zeigt: Reichtum ist in Österreich weit konzentrierter, als es einfache Umfragen vermuten lassen. Diese Transparenz ist die notwendige Grundlage für jede sachliche Debatte darüber, wie Wohlstand und Verantwortung in Zukunft verteilt sein sollen.
 
 
 <br><br><br><br><br><br><br>
@@ -308,8 +334,10 @@ Und die untere Hälfte der Haushalte?
 
 Die hier dargestellten Erkenntnisse und Verteilungen basieren auf der Arbeit von <em>Ines Heck, Anna Hornykewycz, Jakob Kapeller und Rafael Wildauer</em> (2024): Vermögensverteilung in Österreich: Eine Analyse auf Basis des HFCS 2021/22. In: Materialien zu Wirtschaft und Gesellschaft Nr. 255. [Working Paper-Reihe der AK Wien](https://emedien.arbeiterkammer.at/viewer/image/AC17296950/).
 
-<br><br>
+
+### Weitere Quellen
 
 * Isotypen: Gerd Arntz Web Archive: [https://www.gerdarntz.org/isotype.html](https://www.gerdarntz.org/isotype.html), digital bearbeitet
 * Bundeszentrale für politische Bildung: [https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/21004/vermoegen/](https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/21004/vermoegen/)
 * Household Finance and Consumption Survey 2021: [https://www.hfcs.at/ergebnisse-tabellen/hfcs-2021.html](https://www.hfcs.at/ergebnisse-tabellen/hfcs-2021.html), Standard-Output-Tabellen ([Download](https://www.hfcs.at/dam/jcr:d1b35868-6ebc-4f29-90a8-d0e40df9369c/HFCS-AT-2021-Standard-Output-Tabellen.xlsx))
+* Statistik Austria: [https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/familien-haushalte-lebensformen/privathaushalte](https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/familien-haushalte-lebensformen/privathaushalte)
