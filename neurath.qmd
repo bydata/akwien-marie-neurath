@@ -85,8 +85,8 @@ Das hat sich mit dem Household Finance and Consumption Survey (HFCS) geändert. 
 
 :::
 
-
-Hier vergleichen wir...
+<br><br><br><br>
+In dieser Grafik vergleichen wir...
 
 \- das mittlere Vermögen der unteren Hälfte der Haushalte<br>
 \- das mittlere Vermögen aller Haushalte und<br>
@@ -161,7 +161,7 @@ Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich 
 :::
 
 
-@cr-haushalte-vermoegen-start Jedes Haus repräsentiert wieder ein Prozent der privaten Haushalte; jede Münze ein Prozent des Vermögens.
+@cr-haushalte-vermoegen-start Jedes Haus repräsentiert wieder ein Prozent der privaten Haushalte; jede Münze ein Prozent des Gesamtvermögens der privaten Haushalte.
 
 @cr-haushalte-vermoegen-untere50 <span class="highlighted-text">Die untere Hälfte der Haushalte</span> verfügt über fünf Prozent des gesamten Vermögens privater Haushalte.
 
@@ -180,7 +180,7 @@ Die Tatsache, dass das <span class="highlighted-text highlighted-text-purple">ob
 
 <em>Aber:</em> Diese Zahlen erzählen nicht die ganze Geschichte. Es gibt ein systematisches Problem:
 
-Große Firmenimperien, Stiftungen und diskretes Privatvermögen tauchen in Haushaltsbefragungen kaum auf.<br><br>
+Große Unternehmensbeteiligungen, Stiftungsvermögen und hohe Privatvermögen werden in Haushaltsbefragungen häufig nur unvollständig erfasst.<br><br>
 Wer wirklich reich ist, wird von Zufallsstichproben oft schlicht nicht erfasst. Solche Befragungen <em>unterschätzen</em> die Höhe der Vermögen besonders reicher Haushalte - und somit auch die Konzentration von Vermögen an der Spitze der Verteilung.
 
 :::
@@ -193,7 +193,6 @@ Für die HFCS-Erhebung wird eine Stichprobe von Haushalten in Österreich befrag
 Eine ideale Stichprobe repräsentiert Haushalte verschiedener Gruppen gleichmäßig und erlaubt valide Aussagen über die Grundgesamtheit, also die privaten Haushalte in Österreich.
 <br><br>
 Beim HFCS sind jedoch wohlhabendere Haushalte unterrepräsentiert.
-
 
 Es gibt drei Hauptgründe, warum das Gesamtvermögen und die Ungleichheit in einer Gesellschaft in Umfragen meist zu niedrig eingeschätzt werden:
 
@@ -289,7 +288,7 @@ Die Vermögensverteilung in Österreich stellt sich nun wie folgt dar:
 
 @cr-haushalte-1-lila-99-grau <span class="highlighted-text highlighted-text-purple">Ein Haushalt</span> besitzt mit 41 % also gar nicht so viel weniger als die <span class="highlighted-text highlighted-text-grey">99 übrigen Haushalte</span>.
 
-@cr-haushalte-1-lila-9-blau-90-grau Wenn man das Vermögen der oberen zehn Prozent zusammennimmt, dann ist es doppelt so hoch wie das der übrigen 90 Haushalte.
+@cr-haushalte-1-lila-9-blau-90-grau Wenn man das Vermögen der oberen zehn Prozent zusammennimmt, dann ist diese Vermögen doppelt so hoch wie das der übrigen 90 Haushalte.
 
 Und die untere Hälfte der Haushalte?
 
