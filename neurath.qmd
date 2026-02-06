@@ -5,8 +5,7 @@ execute:
   message: false
 css:
   - css/styles.css
-  - css/playfair-display.css
-  - css/roboto.css
+  - css/jost.css
 format:
   closeread-html:
     cr-section:
@@ -14,19 +13,19 @@ format:
     cr-style:
       narrative-text-color-overlay: "black"
       narrative-background-color-overlay: "#FFFFFFF2"
-      section-background-color: "#F1F1F1"
       narrative-border-radius: 5px
-      narrative-font-family: "Playfair Display"
+      narrative-font-family: "Jost"
+      section-background-color: "#F1F1F1"
 ---
 
 
-Österreich gilt als reiches Land. Doch hinter den Durchschnittszahlen verbirgt sich eine Frage, auf die es lange Zeit keine klaren Antworten gab: Wie genau ist dieser Reichtum eigentlich verteilt? Wer besitzt wie viel, und wo beginnt die echte Spitze?
+Österreich gilt als reiches Land. Doch wie genau ist dieser Reichtum verteilt? Wer besitzt wie viel, und wo beginnt die Spitze der Vermögensverteilung?
 
-Lange Zeit fehlten verlässliche Daten, um das Vermögen der Privathaushalte zu messen. Das änderte sich mit dem <a href="https://www.ecb.europa.eu/pub/research-networks/html/hfcn_faq_2021_wave.en.html" target="_new">Household Finance and Consumption Survey (HFCS)</a>. Diese europaweite Erhebung der Zentralbanken liefert erstmals detaillierte Einblicke in die Finanzen der Haushalte.
+Lange Zeit fehlten verlässliche Daten, um das Vermögen der Privathaushalte zu messen. Das änderte sich mit dem <a href="https://www.ecb.europa.eu/pub/research-networks/html/hfcn_faq_2021_wave.en.html" target="_new">Household Finance and Consumption Survey</a> (HFCS). Diese europaweite Erhebung der Zentralbanken liefert erstmals detaillierte Einblicke in die Finanzen der Haushalte.
 
-Doch wie präzise sind solche Umfragen wirklich? Besonders an der Spitze der Gesellschaft ist Reichtum oft schwer zu fassen. Um herauszufinden, ob die offiziellen Zahlen das wahre Ausmaß der Ungleichheit abbilden, muss man über die Befragungen hinausblicken.
+Doch inwieweit ermöglichen solche Umfragen, die Vermögensverteilung akkurat abzubilden? Besonders an der Spitze ist Reichtum oft schwer zu fassen. Um herauszufinden, ob die offiziellen Zahlen das wahre Ausmaß der Ungleichheit abbilden, muss man über die Befragungen hinausblicken.
 
-Diese interaktive Auswertung nimmt dich mit auf eine Spurensuche: Wir betrachten zuerst die bekannten Fakten und untersuchen dann, was passiert, wenn wir die &bdquo;blinden Flecken&rdquo; der Statistik ausleuchten.
+Diese interaktive Auswertung nimmt dich mit auf eine Spurensuche: Wir betrachten zuerst die Erkenntnisse aus dem HFCS und untersuchen dann, wie die &bdquo;blinden Flecken&rdquo; der Statistik ausgeleuchtet werden können.
 
 ::: cr-section
 
@@ -91,9 +90,9 @@ In Österreich gibt es rund 4,1 Millionen Privathaushalte. Hinter dieser Zahl ve
 <br><br><br><br>
 In dieser Grafik vergleichen wir...
 
-\- das mittlere Vermögen der unteren Hälfte der Haushalte<br>
-\- das mittlere Vermögen aller Haushalte und<br>
-\- das durchschnittliche Vermögen des obersten Prozents.<br>
+\- das mittlere Vermögen der <em>unteren Hälfte</em> der Haushalte<br>
+\- das mittlere Vermögen <em>aller Haushalte</em> und<br>
+\- das durchschnittliche Vermögen des <em>obersten Prozents</em>.<br>
 
 Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich – nachdem alle Haushalte nach ihrem Vermögen sortiert wurden – genau in der Mitte befindet.
 <br><br><br>
@@ -183,7 +182,8 @@ Die Tatsache, dass das <span class="highlighted-text highlighted-text-purple">ob
 
 <em>Aber:</em> Diese Zahlen erzählen nicht die ganze Geschichte. Es gibt ein systematisches Problem:
 
-Große Unternehmensbeteiligungen, Stiftungsvermögen und hohe Privatvermögen werden in Haushaltsbefragungen häufig nur unvollständig erfasst.<br><br>
+Große Unternehmensbeteiligungen, Stiftungsvermögen und hohe Privatvermögen werden in Haushaltsbefragungen häufig nur unvollständig erfasst.
+
 Wer wirklich reich ist, wird von Zufallsstichproben oft schlicht nicht erfasst. Solche Befragungen <em>unterschätzen</em> die Höhe der Vermögen besonders reicher Haushalte - und somit auch die Konzentration von Vermögen an der Spitze der Verteilung.
 
 :::
@@ -260,9 +260,10 @@ ggplot(df_rich, aes(x = 1, y = 1)) +
   coord_cartesian(clip = "off") +
   guides(size = "none", color = "none") +
   facet_wrap(vars(label)) +
-  theme_void(base_family = "Playfair Display", paper = "#F1F1F1") +
+  theme_void(base_family = "Jost", paper = "#F1F1F1") +
   theme(
-    strip.text = element_text(size = 14, lineheight = 2),
+    strip.text = element_text(
+      size = 14, lineheight = 2, margin = margin(b = 4)),
     panel.spacing.x = unit(2, "cm")
   )
 
@@ -340,3 +341,9 @@ Die hier dargestellten Erkenntnisse und Verteilungen basieren auf der Arbeit von
 * Bundeszentrale für politische Bildung: [https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/21004/vermoegen/](https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/21004/vermoegen/)
 * Household Finance and Consumption Survey 2021: [https://www.hfcs.at/ergebnisse-tabellen/hfcs-2021.html](https://www.hfcs.at/ergebnisse-tabellen/hfcs-2021.html), Standard-Output-Tabellen ([Download](https://www.hfcs.at/dam/jcr:d1b35868-6ebc-4f29-90a8-d0e40df9369c/HFCS-AT-2021-Standard-Output-Tabellen.xlsx))
 * Statistik Austria: [https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/familien-haushalte-lebensformen/privathaushalte](https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/familien-haushalte-lebensformen/privathaushalte)
+
+
+<div class="footer">
+![](https://raw.githubusercontent.com/creativecommons/cc-assets/refs/heads/main/license_badges/small/by.svg)
+Ansgar Wolsing, Februar 2026
+</div>
