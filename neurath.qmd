@@ -4,7 +4,6 @@ execute:
   warning: false
   message: false
 css:
-  - css/styles.css
   - css/jost.css
 format:
   closeread-html:
