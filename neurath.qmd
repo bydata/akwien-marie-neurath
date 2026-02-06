@@ -8,7 +8,7 @@ css:
 format:
   closeread-html:
     cr-section:
-      layout: "overlay-center"
+      layout: "sidebar-left"
     cr-style:
       narrative-text-color-overlay: "black"
       narrative-background-color-overlay: "#FFFFFFF2"
