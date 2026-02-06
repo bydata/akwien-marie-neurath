@@ -73,3 +73,30 @@ In Österreich gibt es rund 4,1 Millionen Privathaushalte. Hinter dieser Zahl ve
 @cr-100-haushalte-top1 Und dann gibt es unter diesen zehn Haushalten <span class="highlighted-text highlighted-text-purple">einen Haushalt</span> mit dem höchsten Vermögen.
 
 :::
+
+<br><br><br><br>
+Als nächstes vergleichen wir...
+
+\- das mittlere Vermögen der <em>unteren Hälfte</em> der Haushalte<br>
+\- das mittlere Vermögen <em>aller Haushalte</em> und<br>
+\- das durchschnittliche Vermögen des <em>obersten Prozents</em>.<br>
+
+Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich – nachdem alle Haushalte nach ihrem Vermögen sortiert wurden – genau in der Mitte befindet.
+<br><br><br>
+
+:::{.cr-section}
+
+:::{#cr-vermoegen-vergleich-1}
+![](media/vermoegen-vergleich-1.png){height="3600px"}
+:::
+
+[@cr-vermoegen-vergleich-1] Bitte scrollen.
+
+
+[@cr-vermoegen-vergleich-1]{pan-to="0%,-20%"} Weiterscrollen!
+
+[@cr-vermoegen-vergleich-1]{pan-to="0%,-40%"} Haushalte, die Vermögen von mehr als 2,64 Mio. EUR besitzen, gehören zum obersten Prozent.
+
+[@cr-vermoegen-vergleich-1]{pan-to="0%,-80%"} Und durchschnittlich besitzen diese Haushalte jeweils **4,92 Mio. EUR**.
+
+:::
