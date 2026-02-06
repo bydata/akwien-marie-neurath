@@ -87,7 +87,7 @@ Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich 
 :::{.cr-section}
 
 :::{#cr-vermoegen-vergleich-1}
-![](media/vermoegen-vergleich-1.png){height="3600px"}
+![](media/vermoegen-vergleich-1.png)
 :::
 
 [@cr-vermoegen-vergleich-1] Bitte scrollen.
