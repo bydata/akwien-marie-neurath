@@ -53,10 +53,10 @@ ul.task-list li input[type="checkbox"] {
       <!-- user-provided yaml closeread style options -->
       <style>
         :root {
-          --cr-section-background-color: #F1F1F1;
---cr-narrative-font-family: Jost;
+          --cr-narrative-border-radius: 5px;
 --cr-narrative-background-color-overlay: #FFFFFFF2;
---cr-narrative-border-radius: 5px;
+--cr-section-background-color: #F1F1F1;
+--cr-narrative-font-family: Jost;
 --cr-narrative-text-color-overlay: black;
         }
       </style>
@@ -87,6 +87,21 @@ ul.task-list li input[type="checkbox"] {
 <p>Diese interaktive Auswertung nimmt dich mit auf eine Spurensuche: Wir betrachten zuerst die Erkenntnisse aus dem HFCS und untersuchen dann, wie die „blinden Flecken” der Statistik ausgeleuchtet werden können.</p>
 <div class="cr-section cr-column-screen overlay-center">
 <div class="narrative-col">
+<div class="trigger new-trigger" data-focus-on="cr-vermoegen">
+<div class="narrative">
+<p><span class="highlighted-text">Vermögen</span> sind alle in Geld bewerteten dauerhaften Güter und Rechte wie Grundbesitz, Wertpapiere oder Bargeld einer Person oder eines privaten Haushalts.</p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-haushalte">
+<div class="narrative">
+<p>Der Begriff <span class="highlighted-text">Haushalt</span> bezeichnet eine allein lebende Person oder eine Gruppe von Personen, die zusammen in derselben privaten Wohnung leben und sich die Ausgaben teilen, einschließlich der gemeinsamen Beschaffung lebensnotwendiger Dinge.</p>
+</div>
+</div>
+<div class="trigger">
+<div class="narrative">
+<p>In Österreich gibt es rund 4,1 Millionen Privathaushalte. Hinter dieser Zahl verbergen sich viele verschiedene Haushaltsformen, etwa Familien, Alleinlebende, Wohngemeinschaften oder Mehrgenerationenhäuser. Statistisch gesehen zählt jede Gruppe von Menschen als Haushalt, die sich eine Wohnung teilt und die Kosten für das tägliche Leben gemeinsam trägt.</p>
+</div>
+</div>
 <div class="trigger new-trigger" data-focus-on="cr-100-haushalte">
 <div class="narrative">
 <p>Stelle dir vor, diese <em>100 Haushalte</em> stehen für die alle privaten Haushalte Österreichs. <br><br><em>Ein Haushalt repräsentiert ein Prozent der österreichischen Haushalte</em>. 🇦🇹 <br><br>Jeder Haushalt besitzt ein bestimmtes Vermögen.</p>
@@ -110,6 +125,12 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="sticky-col">
 <div class="sticky-col-stack">
+<div id="cr-vermoegen" class="sticky">
+<p><img src="media/vermoegen-klein.png" class="img-fluid"></p>
+</div>
+<div id="cr-haushalte" class="sticky">
+<p><img src="media/haushalte.png" class="img-fluid"></p>
+</div>
 <div id="cr-100-haushalte" class="sticky">
 <p><img src="media/haushalte-100-grau.png" class="img-fluid"></p>
 </div>
@@ -118,6 +139,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="cr-100-haushalte-top10" class="sticky">
 <p><img src="media/haushalte-100-top10.png" class="img-fluid"></p>
+</div>
+<div id="cr-100-haushalte-top1" class="sticky">
+<p><img src="media/haushalte-100-top1.png" class="img-fluid"></p>
 </div>
 </div>
 </div>

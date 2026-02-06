@@ -30,6 +30,13 @@ Diese interaktive Auswertung nimmt dich mit auf eine Spurensuche: Wir betrachten
 
 :::{.cr-section}
 
+:::{#cr-vermoegen}
+![](media/vermoegen-klein.png)
+:::
+
+:::{#cr-haushalte}
+![](media/haushalte.png)
+:::
 
 :::{#cr-100-haushalte}
 ![](media/haushalte-100-grau.png)
@@ -42,6 +49,18 @@ Diese interaktive Auswertung nimmt dich mit auf eine Spurensuche: Wir betrachten
 :::{#cr-100-haushalte-top10}
 ![](media/haushalte-100-top10.png)
 :::
+
+:::{#cr-100-haushalte-top1}
+![](media/haushalte-100-top1.png)
+:::
+
+
+
+@cr-vermoegen <span class="highlighted-text">Vermögen</span> sind alle in Geld bewerteten dauerhaften Güter und Rechte wie Grundbesitz, Wertpapiere oder Bargeld einer Person oder eines privaten Haushalts.
+
+@cr-haushalte Der Begriff <span class="highlighted-text">Haushalt</span> bezeichnet eine allein lebende Person oder eine Gruppe von Personen, die zusammen in derselben privaten Wohnung leben und sich die Ausgaben teilen, einschließlich der gemeinsamen Beschaffung lebensnotwendiger Dinge.
+
+In Österreich gibt es rund 4,1 Millionen Privathaushalte. Hinter dieser Zahl verbergen sich viele verschiedene Haushaltsformen, etwa Familien, Alleinlebende, Wohngemeinschaften oder Mehrgenerationenhäuser. Statistisch gesehen zählt jede Gruppe von Menschen als Haushalt, die sich eine Wohnung teilt und die Kosten für das tägliche Leben gemeinsam trägt.
 
 
 @cr-100-haushalte Stelle dir vor, diese <em>100 Haushalte</em> stehen für die alle privaten Haushalte Österreichs.
