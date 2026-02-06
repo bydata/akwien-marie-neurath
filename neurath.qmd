@@ -186,7 +186,7 @@ Es gibt drei Hauptgründe, warum das Gesamtvermögen und die Ungleichheit in ein
 :::
 
 :::{#cr-vermoegen-untererfassung}
-<div style="text-align:center">![](media/vermoegen-untererfassung.png){width="632px" height="456px" fig-alt="Ein Bild mit Symbolen verschiedener Vermögensarten. Ein Haus und eine Fabrik sind ausgegraut"}</div>
+<div style="text-align:center">![](media/vermoegen-untererfassung.png){fig-alt="Ein Bild mit Symbolen verschiedener Vermögensarten. Ein Haus und eine Fabrik sind ausgegraut"}</div>
 :::
 
 
