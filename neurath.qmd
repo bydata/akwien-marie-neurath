@@ -174,15 +174,15 @@ Es gibt drei Hauptgründe, warum das Gesamtvermögen und die Ungleichheit in ein
 :::{.cr-section}
 
 :::{#cr-viele-haushalte-2-lila}
-<div style="text-align:center">![](media/viele-haushalte-2-lila.png){width="55%" height="55%" fig-alt="1000 kleine Häuser, in einem Raster angeordnet, 2 Häuser sind lila, die anderen grau"}</div>
+<div style="text-align:center">![](media/viele-haushalte-2-lila.png){fig-alt="1000 kleine Häuser, in einem Raster angeordnet, 2 Häuser sind lila, die anderen grau"}</div>
 :::
 
 :::{#cr-viele-haushalte-2-lila-stichprobe}
-<div style="text-align:center">![](media/viele-haushalte-2-lila-stichprobe.png){width="55%" height="55%" fig-alt="1000 kleine Häuser, in einem Raster angeordnet, 2 Häuser sind lila, die anderen grau, einige graue Häuser und ein lila Haus werden von einem Rechteck umschlossen"}</div>
+<div style="text-align:center">![](media/viele-haushalte-2-lila-stichprobe.png){fig-alt="1000 kleine Häuser, in einem Raster angeordnet, 2 Häuser sind lila, die anderen grau, einige graue Häuser und ein lila Haus werden von einem Rechteck umschlossen"}</div>
 :::
 
 :::{#cr-viele-haushalte-2-lila-stichprobe-verweigerung}
-<div style="text-align:center">![](media/viele-haushalte-2-lila-stichprobe-verweigerung.png){width="55%" height="55%" fig-alt="Gleiches Bild, das lila-farbene Haus ist jedoch verschwunden"}</div>
+<div style="text-align:center">![](media/viele-haushalte-2-lila-stichprobe-verweigerung.png){fig-alt="Gleiches Bild, das lila-farbene Haus ist jedoch verschwunden"}</div>
 :::
 
 :::{#cr-vermoegen-untererfassung}
