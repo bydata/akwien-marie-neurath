@@ -42,20 +42,13 @@ Diese interaktive Auswertung nimmt dich mit auf eine Spurensuche: Wir betrachten
 ![](media/haushalte-100-grau.png)
 :::
 
-:::{#cr-100-haushalte-semitransparent}
-![](media/haushalte-100.png){style="opacity: 0.1;"}
-:::
-
-
 :::{#cr-100-haushalte-untere50}
 ![](media/haushalte-100-untere50.png)
 :::
 
-
 :::{#cr-100-haushalte-top10}
 ![](media/haushalte-100-top10.png)
 :::
-
 
 :::{#cr-100-haushalte-top1}
 ![](media/haushalte-100-top1.png)
