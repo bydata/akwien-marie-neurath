@@ -88,7 +88,7 @@ In Österreich gibt es rund 4,1 Millionen Privathaushalte. Hinter dieser Zahl ve
 :::
 
 <br><br><br><br>
-In dieser Grafik vergleichen wir...
+Als nächstes vergleichen wir...
 
 \- das mittlere Vermögen der <em>unteren Hälfte</em> der Haushalte<br>
 \- das mittlere Vermögen <em>aller Haushalte</em> und<br>
@@ -114,21 +114,10 @@ Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich 
 
 [@cr-vermoegen-vergleich-1]{pan-to="0%,-80%"} Und durchschnittlich besitzen diese Haushalte jeweils **4,92 Mio. EUR**.
 
-
 :::
 
 
-
-<div style="width: fit-content; margin: 2vh auto;">
-  <p>Also noch einmal auf einer (Computer-Monitor-)Bildschirmseite:</p></div>
-
-<div style="width: fit-content; margin: 5px auto;">
-  <p>![](media/vermoegen-vergleich-1.png){height="800px"}</p></div>
-
-
-
-## Wie teilt sich das Vermögen unter den Haushalten in Österreich auf?
-
+## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
 ::: cr-section
 
