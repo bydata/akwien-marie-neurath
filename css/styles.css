@@ -180,15 +180,3 @@ div.footer p {
   padding-top: 1vh;
   font-size: 1em;
 }
-
-
-/* Disable full page layout */
-
-main.content {
-  display: block !important;
-}
-section.level2.page-columns.page-full {
-  grid-column: content !important;
-  float: none !important;
-  display: block !important;
-}
