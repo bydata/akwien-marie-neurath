@@ -4,17 +4,19 @@ execute:
   warning: false
   message: false
 css:
+  - css/styles.css
   - css/jost.css
 format:
   closeread-html:
     cr-section:
-      layout: "sidebar-left"
+      layout: "overlay-center"
     cr-style:
       narrative-text-color-overlay: "black"
       narrative-background-color-overlay: "#FFFFFFF2"
       narrative-border-radius: 5px
       narrative-font-family: "Jost"
       section-background-color: "#F1F1F1"
+embed-resources: true
 ---
 
 
