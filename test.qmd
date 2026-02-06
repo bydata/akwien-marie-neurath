@@ -1,0 +1,56 @@
+---
+title: Wem gehört der Wohlstand in Österreich?
+execute: 
+  warning: false
+  message: false
+css:
+  - css/styles.css
+  - css/jost.css
+format:
+  closeread-html:
+    cr-section:
+      layout: "overlay-center"
+    cr-style:
+      narrative-text-color-overlay: "black"
+      narrative-background-color-overlay: "#FFFFFFF2"
+      narrative-border-radius: 5px
+      narrative-font-family: "Jost"
+      section-background-color: "#F1F1F1"
+---
+
+
+Österreich gilt als reiches Land. Doch wie genau ist dieser Reichtum verteilt? Wer besitzt wie viel, und wo beginnt die Spitze der Vermögensverteilung?
+
+Lange Zeit fehlten verlässliche Daten, um das Vermögen der Privathaushalte zu messen. Das änderte sich mit dem <a href="https://www.ecb.europa.eu/pub/research-networks/html/hfcn_faq_2021_wave.en.html" target="_new">Household Finance and Consumption Survey</a> (HFCS). Diese europaweite Erhebung der Zentralbanken liefert erstmals detaillierte Einblicke in die Finanzen der Haushalte.
+
+Doch inwieweit ermöglichen solche Umfragen, die Vermögensverteilung akkurat abzubilden? Besonders an der Spitze ist Reichtum oft schwer zu fassen. Um herauszufinden, ob die offiziellen Zahlen das wahre Ausmaß der Ungleichheit abbilden, muss man über die Befragungen hinausblicken.
+
+Diese interaktive Auswertung nimmt dich mit auf eine Spurensuche: Wir betrachten zuerst die Erkenntnisse aus dem HFCS und untersuchen dann, wie die &bdquo;blinden Flecken&rdquo; der Statistik ausgeleuchtet werden können.
+
+
+:::{.cr-section}
+
+
+:::{#cr-100-haushalte}
+![](media/haushalte-100-grau.png)
+:::
+
+:::{#cr-100-haushalte-untere50}
+![](media/haushalte-100-untere50.png)
+:::
+
+:::{#cr-100-haushalte-top10}
+![](media/haushalte-100-top10.png)
+:::
+
+
+@cr-100-haushalte Stelle dir vor, diese <em>100 Haushalte</em> stehen für die alle privaten Haushalte Österreichs.
+<br><br><em>Ein Haushalt repräsentiert ein Prozent der österreichischen Haushalte</em>. 🇦🇹 <br><br>Jeder Haushalt besitzt ein bestimmtes Vermögen.
+
+@cr-100-haushalte-untere50 Dann sind <span class="highlighted-text">diese 50 Haushalte</span> hier die Hälfte der Haushalte.<br><br>Wenn man die privaten Haushalte nach der Höhe ihres Vermögens ordnet, dann ist dies die  Hälfte der Haushalte <em>mit dem geringsten Vermögen</em>.
+
+<span class="highlighted-text">Diese zehn Haushalte</span> besitzen das höchste Vermögen. @cr-100-haushalte-top10
+
+@cr-100-haushalte-top1 Und dann gibt es unter diesen zehn Haushalten <span class="highlighted-text highlighted-text-purple">einen Haushalt</span> mit dem höchsten Vermögen.
+
+:::
