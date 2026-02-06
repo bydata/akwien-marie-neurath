@@ -28,7 +28,7 @@ Doch inwieweit ermöglichen solche Umfragen, die Vermögensverteilung akkurat ab
 Diese interaktive Auswertung nimmt dich mit auf eine Spurensuche: Wir betrachten zuerst die Erkenntnisse aus dem HFCS und untersuchen dann, wie die &bdquo;blinden Flecken&rdquo; der Statistik ausgeleuchtet werden können.
 
 
-:::{cr-section}
+:::{.cr-section}
 
 :::{#cr-vermoegen}
 ![](media/vermoegen-klein.png)
@@ -91,7 +91,7 @@ Als nächstes vergleichen wir...
 Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich – nachdem alle Haushalte nach ihrem Vermögen sortiert wurden – genau in der Mitte befindet.
 <br><br><br>
 
-:::{cr-section}
+:::{.cr-section}
 
 :::{#cr-vermoegen-vergleich-1}
 ![](media/vermoegen-vergleich-1.png){height="3600px"}
@@ -113,7 +113,7 @@ Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich 
 
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
-:::{cr-section}
+:::{.cr-section}
 
 :::{#cr-haushalte-vermoegen-start}
 ![](media/haushalte-vermoegen-start.png)
@@ -180,7 +180,7 @@ Beim HFCS sind jedoch wohlhabendere Haushalte unterrepräsentiert.
 
 Es gibt drei Hauptgründe, warum das Gesamtvermögen und die Ungleichheit in einer Gesellschaft in Umfragen meist zu niedrig eingeschätzt werden:
 
-:::{cr-section}
+:::{.cr-section}
 
 :::{#cr-viele-haushalte-2-lila}
 <div style="text-align:center">![](media/viele-haushalte-2-lila.png){width="55%" height="55%" fig-alt="1000 kleine Häuser, in einem Raster angeordnet, 2 Häuser sind lila, die anderen grau"}</div>
@@ -264,7 +264,7 @@ Nach dieser statistischen Anpassung zeigt sich ein genaueres Bild der der Vermö
 Die Vermögensverteilung in Österreich stellt sich nun wie folgt dar:
 <br><br>
 
-:::{cr-section}
+:::{.cr-section}
 
 :::{#cr-muenzen-top-1-roh}
 ![](media/muenzen-top-1-roh.png)
