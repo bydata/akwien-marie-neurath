@@ -65,15 +65,16 @@ p {
 }
 
 .narrative p {
-  font-size: 1.2em;
+  font-size: clamp(0.9rem, 0.5rem + 2vw, 1.2em);
   font-weight: 400;
+  line-height: clamp(1.1, 1.25, 1.4) !important;
 }
 
 #quarto-document-content p {
   padding-top: 10px;
   line-height: 1.4;
   text-align: left;
-  font-size: clamp(1rem, 0.5rem + 2vw, 1.4em);
+  font-size: clamp(0.9rem, 0.5rem + 2vw, 1.4em);
   max-width: min(70ch, calc(100vw - 2rem));
   padding-inline: clamp(1rem, 4vw, 2rem);
 }
