@@ -54,11 +54,7 @@ hr {
 }
 
 p {
-  line-height: 1.4;
-  text-align: left;
-  font-size: 1.4em;
-  max-width: 70ch;
-  margin-inline: auto;
+
 }
 
 .narrative p {
@@ -68,6 +64,11 @@ p {
 
 #quarto-document-content > p {
   padding-top: 10px;
+  line-height: 1.4;
+  text-align: left;
+  font-size: 1.4em;
+  max-width: 70ch;
+  margin-inline: auto;
 }
 
 #quarto-document-content > p.with-border {
