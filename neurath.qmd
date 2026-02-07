@@ -210,7 +210,7 @@ Um ein realistisches Gesamtbild zu zeichnen, können die Befragungsdaten anhand 
 Zwischen dem Vermögen des <span class="highlighted-text highlighted-text-purple">reichsten Haushalts der Umfrage</span> (ca. 12 Mio. Euro) und dem Vermögen auf dem <span class="highlighted-text">untersten Rang der Reichstenliste</span> (290 Mio. Euro) klafft ein riesiges Loch.
 
 <br><br>
-```{r circle-chart, out.width="70%", fig.width=8, fig.align="center"}
+```{r circle-chart, out.width="90%", fig.width=8, fig.align="center"}
 library(ggplot2)
 df_rich <- data.frame(
   label = c("Reichster Haushalt in der Umfrage",
