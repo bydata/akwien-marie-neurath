@@ -54,7 +54,8 @@ hr {
 }
 
 p {
-
+  padding-left: 3ch;
+  padding-right: 3ch;
 }
 
 .narrative p {
