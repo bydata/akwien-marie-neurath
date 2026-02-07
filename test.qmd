@@ -71,3 +71,29 @@ In Österreich gibt es rund 4,1 Millionen Privathaushalte. Hinter dieser Zahl ve
 
 :::
 
+
+
+## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
+
+:::{.cr-section}
+
+:::{#cr-haushalte-vermoegen-start}
+![](media/haushalte-vermoegen-start.png)
+:::
+
+:::{#cr-haushalte-vermoegen-untere50}
+![](media/haushalte-vermoegen-untere50.png)
+:::
+
+:::{#cr-haushalte-vermoegen-50bis11}
+![](media/haushalte-vermoegen-50bis11.png)
+:::
+
+
+@cr-haushalte-vermoegen-start Jedes Haus repräsentiert wieder ein Prozent der privaten Haushalte; jede Münze ein Prozent des Gesamtvermögens der privaten Haushalte.
+
+@cr-haushalte-vermoegen-untere50 <span class="highlighted-text">Die untere Hälfte der Haushalte</span> verfügt über fünf Prozent des gesamten Vermögens privater Haushalte.
+
+@cr-haushalte-vermoegen-50bis11 Die <span class="highlighted-text highlighted-text-green">nächsten 40 Prozent der Haushalte</span> (51. bis 11. Perzentil) verfügen über 43 Prozent.
+
+:::
