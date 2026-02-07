@@ -84,9 +84,9 @@ Als nächstes vergleichen wir...
 Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich – nachdem alle Haushalte nach ihrem Vermögen sortiert wurden – genau in der Mitte befindet.
 <br><br><br>
 
-:::{.cr-section .hide-mobile}
+:::{.cr-section}
 
-:::{#cr-vermoegen-vergleich-1}
+:::{#cr-vermoegen-vergleich-1  .hide-mobile}
 ![](media/vermoegen-vergleich-1.png)
 :::
 

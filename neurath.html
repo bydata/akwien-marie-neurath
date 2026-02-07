@@ -53,9 +53,9 @@ ul.task-list li input[type="checkbox"] {
       <!-- user-provided yaml closeread style options -->
       <style>
         :root {
-          --cr-narrative-text-color-overlay: black;
+          --cr-narrative-font-family: Jost;
 --cr-section-background-color: #F1F1F1;
---cr-narrative-font-family: Jost;
+--cr-narrative-text-color-overlay: black;
 --cr-narrative-background-color-overlay: #FFFFFFF2;
 --cr-narrative-border-radius: 5px;
         }
@@ -149,24 +149,24 @@ ul.task-list li input[type="checkbox"] {
 <p><br><br><br><br> Als nächstes vergleichen wir…</p>
 <p>- das mittlere Vermögen der <em>unteren Hälfte</em> der Haushalte<br> - das mittlere Vermögen <em>aller Haushalte</em> und<br> - das durchschnittliche Vermögen des <em>obersten Prozents</em>.<br></p>
 <p>Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich – nachdem alle Haushalte nach ihrem Vermögen sortiert wurden – genau in der Mitte befindet. <br><br><br></p>
-<div class="cr-section hide-mobile cr-column-screen overlay-center">
+<div class="cr-section cr-column-screen overlay-center">
 <div class="narrative-col">
 <div class="trigger new-trigger" data-focus-on="cr-vermoegen-vergleich-1">
 <div class="narrative">
 <p>Bitte scrollen.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-vermoegen-vergleich-1" data-pan-to="0%,-20%">
+<div class="trigger new-trigger" data-pan-to="0%,-20%" data-focus-on="cr-vermoegen-vergleich-1">
 <div class="narrative">
 <p>Weiterscrollen!</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-vermoegen-vergleich-1" data-pan-to="0%,-40%">
+<div class="trigger new-trigger" data-pan-to="0%,-40%" data-focus-on="cr-vermoegen-vergleich-1">
 <div class="narrative">
 <p>Haushalte, die Vermögen von mehr als 2,64 Mio. EUR besitzen, gehören zum obersten Prozent.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-vermoegen-vergleich-1" data-pan-to="0%,-80%">
+<div class="trigger new-trigger" data-pan-to="0%,-80%" data-focus-on="cr-vermoegen-vergleich-1">
 <div class="narrative">
 <p>Und durchschnittlich besitzen diese Haushalte jeweils <strong>4,92 Mio. EUR</strong>.</p>
 </div>
@@ -174,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="sticky-col">
 <div class="sticky-col-stack">
-<div id="cr-vermoegen-vergleich-1" class="sticky">
+<div id="cr-vermoegen-vergleich-1" class="hide-mobile sticky">
 <p><img src="media/vermoegen-vergleich-1.png" class="img-fluid"></p>
 </div>
 </div>
