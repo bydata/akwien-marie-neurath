@@ -86,7 +86,9 @@ Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich 
 
 :::{.cr-section}
 
-:::{#cr-vermoegen-vergleich-1  .hide-mobile}
+:::{.hide-mobile}
+
+:::{#cr-vermoegen-vergleich-1}
 ![](media/vermoegen-vergleich-1.png)
 :::
 
@@ -100,7 +102,7 @@ Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich 
 [@cr-vermoegen-vergleich-1]{pan-to="0%,-80%"} Und durchschnittlich besitzen diese Haushalte jeweils **4,92 Mio. EUR**.
 
 :::
-
+:::
 
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
