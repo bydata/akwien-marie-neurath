@@ -1,5 +1,7 @@
 ---
 title: Wem gehört der Wohlstand in Österreich?
+author: Ansgar Wolsing
+lang: de
 execute: 
   warning: false
   message: false
@@ -21,7 +23,7 @@ format:
 
 Österreich gilt als reiches Land. Doch wie genau ist dieser Reichtum verteilt? Wer besitzt wie viel, und wo beginnt die Spitze der Vermögensverteilung?
 
-Lange Zeit fehlten verlässliche Daten, um das Vermögen der Privathaushalte zu messen. Das änderte sich mit dem <a href="https://www.ecb.europa.eu/pub/research-networks/html/hfcn_faq_2021_wave.en.html" target="_new">Household Finance and Consumption Survey</a> (HFCS). Diese europaweite Erhebung der Zentralbanken liefert erstmals detaillierte Einblicke in die Finanzen der Haushalte.
+Lange Zeit fehlten verlässliche Daten, um das Vermögen der Privathaushalte zu messen. Das änderte sich mit dem <a href="https://www.ecb.europa.eu/pub/research-networks/html/hfcn_faq_2021_wave.en.html" target="_blank">Household Finance and Consumption Survey</a> (HFCS). Diese europaweite Erhebung der Zentralbanken liefert erstmals detaillierte Einblicke in die Finanzen der Haushalte.
 
 Doch inwieweit ermöglichen solche Umfragen, die Vermögensverteilung akkurat abzubilden? Besonders an der Spitze ist Reichtum oft schwer zu fassen. Um herauszufinden, ob die offiziellen Zahlen das wahre Ausmaß der Ungleichheit abbilden, muss man über die Befragungen hinausblicken.
 
@@ -30,30 +32,29 @@ Diese interaktive Auswertung nimmt dich mit auf eine Spurensuche: Wir betrachten
 
 :::{.cr-section}
 
-:::{#cr-vermoegen}
-![](media/vermoegen-klein.png)
+:::{#cr-vermoegen fetchpriority="high"}
+![](media/vermoegen-klein.png){fig.alt="Darstellung verschiedener Vermögenswerte im Isotype-Stil: Haus, Aktien, Bargeld, Firmenbesitz, Wertgegenstände"}
 :::
 
 :::{#cr-haushalte}
-![](media/haushalte.png)
+![](media/haushalte.png){fig.alt="Darstellung verschiedener Haushaltskonstellationen im Isotype-Stil, z.B. Mann und Frau mit drei Kindern, Mann allein, Frau allein, Frau und Frau mit zwei Kindern"}
 :::
 
 :::{#cr-100-haushalte}
-![](media/haushalte-100-grau.png)
+![](media/haushalte-100-grau.png){fig.alt="10x10 graue Häuser in einem Raster"}
 :::
 
 :::{#cr-100-haushalte-untere50}
-![](media/haushalte-100-untere50.png)
+![](media/haushalte-100-untere50.png){fig.alt="10x10 Häuser in einem Raster, die unteren fünf Reihen sind schwarz, die oberen grau"}
 :::
 
 :::{#cr-100-haushalte-top10}
-![](media/haushalte-100-top10.png)
+![](media/haushalte-100-top10.png){fig.alt="10x10 Häuser in einem Raster, die Häuser in der obersten Reihe sind schwarz, die übrigen grau"}
 :::
 
 :::{#cr-100-haushalte-top1}
-![](media/haushalte-100-top1.png)
+![](media/haushalte-100-top1.png){fig.alt="10x10 Häuser in einem Raster, die ersten neun Häuser der obersten Reihe sind schwarz, das letzte Haus ist lila, die oberen grau"}
 :::
-
 
 
 @cr-vermoegen <span class="highlighted-text">Vermögen</span> sind alle in Geld bewerteten dauerhaften Güter und Rechte wie Grundbesitz, Wertpapiere oder Bargeld einer Person oder eines privaten Haushalts.
@@ -61,7 +62,6 @@ Diese interaktive Auswertung nimmt dich mit auf eine Spurensuche: Wir betrachten
 @cr-haushalte Der Begriff <span class="highlighted-text">Haushalt</span> bezeichnet eine allein lebende Person oder eine Gruppe von Personen, die zusammen in derselben privaten Wohnung leben und sich die Ausgaben teilen, einschließlich der gemeinsamen Beschaffung lebensnotwendiger Dinge.
 
 In Österreich gibt es rund 4,1 Millionen Privathaushalte. Hinter dieser Zahl verbergen sich viele verschiedene Haushaltsformen, etwa Familien, Alleinlebende, Wohngemeinschaften oder Mehrgenerationenhäuser. Statistisch gesehen zählt jede Gruppe von Menschen als Haushalt, die sich eine Wohnung teilt und die Kosten für das tägliche Leben gemeinsam trägt.
-
 
 @cr-100-haushalte Stelle dir vor, diese <em>100 Haushalte</em> stehen für die alle privaten Haushalte Österreichs.
 <br><br><em>Ein Haushalt repräsentiert ein Prozent der österreichischen Haushalte</em>. 🇦🇹 <br><br>Jeder Haushalt besitzt ein bestimmtes Vermögen.
@@ -75,8 +75,6 @@ In Österreich gibt es rund 4,1 Millionen Privathaushalte. Hinter dieser Zahl ve
 :::
 
 
-
-<br><br><br><br>
 Als nächstes vergleichen wir...
 
 \- das mittlere Vermögen der <em>unteren Hälfte</em> der Haushalte<br>
