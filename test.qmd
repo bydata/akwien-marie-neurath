@@ -54,14 +54,11 @@ Diese interaktive Auswertung nimmt dich mit auf eine Spurensuche: Wir betrachten
 ![](media/haushalte-100-top1.png)
 :::
 
-
-
 @cr-vermoegen <span class="highlighted-text">Vermögen</span> sind alle in Geld bewerteten dauerhaften Güter und Rechte wie Grundbesitz, Wertpapiere oder Bargeld einer Person oder eines privaten Haushalts.
 
 @cr-haushalte Der Begriff <span class="highlighted-text">Haushalt</span> bezeichnet eine allein lebende Person oder eine Gruppe von Personen, die zusammen in derselben privaten Wohnung leben und sich die Ausgaben teilen, einschließlich der gemeinsamen Beschaffung lebensnotwendiger Dinge.
 
 In Österreich gibt es rund 4,1 Millionen Privathaushalte. Hinter dieser Zahl verbergen sich viele verschiedene Haushaltsformen, etwa Familien, Alleinlebende, Wohngemeinschaften oder Mehrgenerationenhäuser. Statistisch gesehen zählt jede Gruppe von Menschen als Haushalt, die sich eine Wohnung teilt und die Kosten für das tägliche Leben gemeinsam trägt.
-
 
 @cr-100-haushalte Stelle dir vor, diese <em>100 Haushalte</em> stehen für die alle privaten Haushalte Österreichs.
 <br><br><em>Ein Haushalt repräsentiert ein Prozent der österreichischen Haushalte</em>. 🇦🇹 <br><br>Jeder Haushalt besitzt ein bestimmtes Vermögen.
@@ -74,64 +71,3 @@ In Österreich gibt es rund 4,1 Millionen Privathaushalte. Hinter dieser Zahl ve
 
 :::
 
-
-
-## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
-
-:::{.cr-section}
-
-:::{#cr-haushalte-vermoegen-start}
-![](media/haushalte-vermoegen-start.png)
-:::
-
-:::{#cr-haushalte-vermoegen-untere50}
-![](media/haushalte-vermoegen-untere50.png)
-:::
-
-:::{#cr-haushalte-vermoegen-50bis11}
-![](media/haushalte-vermoegen-50bis11.png)
-:::
-
-:::{#cr-haushalte-vermoegen-10bis2}
-![](media/haushalte-vermoegen-10bis2.png)
-:::
-
-
-:::{#cr-haushalte-vermoegen-top1}
-![](media/haushalte-vermoegen-top1.png)
-:::
-
-
-:::{#cr-haushalte-vermoegen-top1-10}
-![](media/haushalte-vermoegen-top1-10.png)
-:::
-
-:::{#cr-haushalte-vermoegen-untere90}
-![](media/haushalte-vermoegen-untere90.png)
-:::
-
-
-@cr-haushalte-vermoegen-start Jedes Haus repräsentiert wieder ein Prozent der privaten Haushalte; jede Münze ein Prozent des Gesamtvermögens der privaten Haushalte.
-
-@cr-haushalte-vermoegen-untere50 <span class="highlighted-text">Die untere Hälfte der Haushalte</span> verfügt über fünf Prozent des gesamten Vermögens privater Haushalte.
-
-@cr-haushalte-vermoegen-50bis11 Die <span class="highlighted-text highlighted-text-green">nächsten 40 Prozent der Haushalte</span> (51. bis 11. Perzentil) verfügen über 43 Prozent.
-
-@cr-haushalte-vermoegen-10bis2 Die <span class="highlighted-text highlighted-text-blue">nächsten 9 Prozent der Haushalte</span> (10. bis 2. Perzentil) verfügen über 36 Prozent.
-
-@cr-haushalte-vermoegen-top1 Das <span class="highlighted-text highlighted-text-purple">oberste Prozent der Haushalte</span> besitzt allein 16 Prozent des gesamten Vermögens der privaten Haushalte.
-
-Die Tatsache, dass das <span class="highlighted-text highlighted-text-purple">oberste Prozent der Haushalte</span> 16 Prozent des Vermögens aller privaten Haushalte besitzt, während die untere Hälfte der Haushalte zusammen lediglich über rund fünf Prozent verfügt, verdeutlicht die Ungleichheit der Privatvermögen in Österreich.
-
-@cr-haushalte-vermoegen-top1-10 Die <span class="highlighted-text-gradient-purple-blue">obersten zehn Prozent der Haushalte</span> verfügen sogar insgesamt über mehr als die Hälfte (52 Prozent) der gesamten Vermögen.
-
-@cr-haushalte-vermoegen-untere90 <span class="highlighted-text-gradient-green-black"> 90 Prozent der Haushalte</span> teilen sich die andere Hälfte des Gesamtvermögens.
-
-
-<em>Aber:</em> Diese Zahlen erzählen nicht die ganze Geschichte. Es gibt ein systematisches Problem:
-
-Große Unternehmensbeteiligungen, Stiftungsvermögen und hohe Privatvermögen werden in Haushaltsbefragungen häufig nur unvollständig erfasst.
-
-Wer wirklich reich ist, wird von Zufallsstichproben oft schlicht nicht erfasst. Solche Befragungen <em>unterschätzen</em> die Höhe der Vermögen besonders reicher Haushalte - und somit auch die Konzentration von Vermögen an der Spitze der Verteilung.
-
-:::
