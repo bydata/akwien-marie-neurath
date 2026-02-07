@@ -90,37 +90,49 @@ Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich 
 
 
 
-## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
-
 :::{.cr-section}
 
 :::{#cr-haushalte-vermoegen-start}
+## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
+
 ![](media/haushalte-vermoegen-start.png)
 :::
 
 :::{#cr-haushalte-vermoegen-untere50}
+## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
+
+
 ![](media/haushalte-vermoegen-untere50.png)
 :::
 
 :::{#cr-haushalte-vermoegen-50bis11}
+## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
+
 ![](media/haushalte-vermoegen-50bis11.png)
 :::
 
 :::{#cr-haushalte-vermoegen-10bis2}
+## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
+
 ![](media/haushalte-vermoegen-10bis2.png)
 :::
 
-
 :::{#cr-haushalte-vermoegen-top1}
+## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
+
 ![](media/haushalte-vermoegen-top1.png)
 :::
 
 
 :::{#cr-haushalte-vermoegen-top1-10}
+## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
+
 ![](media/haushalte-vermoegen-top1-10.png)
 :::
 
 :::{#cr-haushalte-vermoegen-untere90}
+## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
+
 ![](media/haushalte-vermoegen-untere90.png)
 :::
 
@@ -199,8 +211,8 @@ Um ein realistisches Gesamtbild zu zeichnen, können die Befragungsdaten anhand 
 
 Zwischen dem Vermögen des <span class="highlighted-text highlighted-text-purple">reichsten Haushalts der Umfrage</span> (ca. 12 Mio. Euro) und dem Vermögen auf dem <span class="highlighted-text">untersten Rang der Reichstenliste</span> (290 Mio. Euro) klafft ein riesiges Loch.
 
-<br>
-```{r circle-chart, out.width = "95%", fig.width=8}
+<br><br>
+```{r circle-chart, out.width="70%", fig.width=8, fig.align="center"}
 library(ggplot2)
 df_rich <- data.frame(
   label = c("Reichster Haushalt in der Umfrage",
@@ -246,26 +258,26 @@ Die Vermögensverteilung in Österreich stellt sich nun wie folgt dar:
 :::{.cr-section}
 
 :::{#cr-muenzen-top-1-roh}
-![](media/muenzen-top-1-roh.png)
+![](media/muenzen-top-1-roh.png){width="95%" fig-alt=""}
 :::
 
 :::{#cr-muenzen-top-1-adj}
-![](media/muenzen-top-1-adj.png)
+![](media/muenzen-top-1-adj.png){width="95%" fig-alt=""}
 :::
 
 
 :::{#cr-haushalte-1-lila-99-grau}
-![](media/haushalte-1-lila-99-grau.png)
+<div style="text-align:center">![](media/haushalte-1-lila-99-grau.png){width="75%" fig-alt=""}</div>
 :::
 
 
 :::{#cr-haushalte-1-lila-9-blau-90-grau}
-![](media/haushalte-1-lila-9-blau-90-grau.png)
+<div style="text-align:center">![](media/haushalte-1-lila-9-blau-90-grau.png){width="75%" fig-alt=""}</div>
 :::
 
 
 :::{#cr-haushalte-untere50-adj}
-![](media/haushalte-untere50-adj.png)
+<div style="text-align:center">![](media/haushalte-untere50-adj.png){width="75%" fig-alt=""}</div>
 :::
 
 

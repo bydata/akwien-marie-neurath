@@ -56,6 +56,7 @@ hr {
 p {
   padding-left: 8px !important;
   padding-right: 8px !important;
+  margin: 0 auto;
 }
 
 .narrative p {
@@ -77,14 +78,20 @@ p {
   margin-top: 40px;
 }
 
+.page-full, section#quellen > p {
+  max-width: 80%;
+  margin: 2% auto;
+}
+
+
 ul {
-  max-width: 100ch;
+  max-width: 80%;
   margin-inline: auto;  
 }
 
 li {
   font-weight: 300 !important;
-  font-size: 1.1em;
+  font-size: 0.9em;
 }
 
 em {
