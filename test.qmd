@@ -108,4 +108,7 @@ In Österreich gibt es rund 4,1 Millionen Privathaushalte. Hinter dieser Zahl ve
 
 @cr-haushalte-vermoegen-top1 Das <span class="highlighted-text highlighted-text-purple">oberste Prozent der Haushalte</span> besitzt allein 16 Prozent des gesamten Vermögens der privaten Haushalte.
 
+Die Tatsache, dass das <span class="highlighted-text highlighted-text-purple">oberste Prozent der Haushalte</span> 16 Prozent des Vermögens aller privaten Haushalte besitzt, während die untere Hälfte der Haushalte zusammen lediglich über rund fünf Prozent verfügt, verdeutlicht die Ungleichheit der Privatvermögen in Österreich.
+
+
 :::
