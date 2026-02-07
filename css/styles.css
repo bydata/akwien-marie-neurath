@@ -193,7 +193,6 @@ div.footer p {
 }
 
 
-/* Disable full page layout */
   main.content {
     display: block !important;
   }
@@ -201,4 +200,23 @@ div.footer p {
   grid-column: content;
   float: none !important;
   display: block !important;
+}
+
+
+@media (max-width: 640px) {
+  p {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+  
+  #quarto-document-content > p {
+    padding-inline: 1rem;
+    font-size: 1.1rem;
+    max-width: calc(100vw - 2rem); 
+  }
+  
+  .page-full, section#quellen > p {
+    max-width: 95%;  
+    padding-inline: 1rem;
+  }
 }
