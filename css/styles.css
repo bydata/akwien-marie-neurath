@@ -1,13 +1,14 @@
 :root {
   --bs-body-bg: #F1F1F1;
   --color-purple: #B558A1;
+  --color-purple-light: #B558A133;
+  --color-purple-medium: #B558A199;
   --color-green: #559B3B;
   --color-blue: #2F91BD;
   --color-grey: #A3A3A388;
   --color-turquoise: #18E9F1BB;
   --color-orange: #FFB300DD;
   --color-darkgrey: #32322D;
-}
 }
 
 body {
@@ -19,7 +20,7 @@ body {
 
 h1 {
   font-family: Jost, 'Times New Roman', serif;
-  font-size: 3.2em;
+  font-size: clamp(1.75rem, 4vw + 1rem, 3.2em);
   font-weight: 600;
   text-align: center;
   color: black;
@@ -27,6 +28,7 @@ h1 {
   padding-bottom: 5px;
   border-bottom: 1px black solid;
 }
+
 
 h2 {
   font-family: Jost, 'Times New Roman', serif;
@@ -54,8 +56,8 @@ hr {
 }
 
 p {
-  padding-left: 8px !important;
-  padding-right: 8px !important;
+  padding-left: 8px;
+  padding-right: 8px;
   margin: 0 auto;
 }
 
@@ -68,9 +70,9 @@ p {
   padding-top: 10px;
   line-height: 1.4;
   text-align: left;
-  font-size: 1.4em;
-  max-width: 70ch;
-  margin-inline: auto;
+  font-size: clamp(1rem, 0.5rem + 2vw, 1.4em);
+  max-width: min(70ch, calc(100vw - 2rem));
+  padding-inline: clamp(1rem, 4vw, 2rem);
 }
 
 #quarto-document-content > p.with-border {
@@ -79,8 +81,9 @@ p {
 }
 
 .page-full, section#quellen > p {
-  max-width: 80%;
+  max-width: min(80%, calc(100vw - 2rem));
   margin: 2% auto;
+  padding-inline: clamp(0.75rem, 3vw, 1rem);
 }
 
 
@@ -110,12 +113,19 @@ em {
 a {
   text-decoration: none;
   color: var(--color-darkgrey);
-  background-image: linear-gradient(120deg, #B558A133 0%, #B558A199 100%);
+  background-image: linear-gradient(
+    120deg,
+    var(--color-purple-light) 0%,
+    var(--color-purple-medium) 100%
+  );
   background-repeat: no-repeat;
   background-size: 100% 30%; 
   background-position: 0 85%;
   transition: background-size 0.25s ease-in;
+  padding: 0.375rem 0.5rem;
 }
+
+  
 
 a:hover {
   background-size: 100% 100%; /* Effekt beim Drüberfahren: Volle Markierung */
@@ -165,8 +175,8 @@ a:hover {
 }
 
 
-.narrative {
-  font-weight: 200 !important;
+.narrative p {
+  font-weight: 200;
 }
 
 
@@ -187,8 +197,8 @@ div.footer p {
   main.content {
     display: block !important;
   }
-section.level2.page-columns.page-full {
-  grid-column: content !important;
+.page-full {
+  grid-column: content;
   float: none !important;
   display: block !important;
 }
