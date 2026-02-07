@@ -185,3 +185,10 @@ section.level2.page-columns.page-full {
   float: none !important;
   display: block !important;
 }
+
+/* Hide for for mobile */
+@media (max-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
+}
