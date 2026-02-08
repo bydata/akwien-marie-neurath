@@ -214,8 +214,8 @@ Zwischen dem Vermögen des <span class="highlighted-text highlighted-text-purple
 ```{r circle-chart, out.width="90%", fig.width=8, fig.align="center"}
 library(ggplot2)
 df_rich <- data.frame(
-  label = c("Reichster Haushalt in der Umfrage",
-            "Unterster Rang der Reichenliste"),
+  label = c("Reichster Haushalt\nin der Umfrage",
+            "Unterster Rang\nder Reichenliste"),
   net_worth = c(12, 290)
 )
 
@@ -236,7 +236,7 @@ ggplot(df_rich, aes(x = 1, y = 1)) +
   theme_void(base_family = "Jost", paper = "#F1F1F1") +
   theme(
     strip.text = element_text(
-      size = 14, lineheight = 2, margin = margin(b = 4)),
+      size = 20, lineheight = 1, margin = margin(b = 4)),
     panel.spacing.x = unit(2, "cm")
   )
 
@@ -257,26 +257,26 @@ Die Vermögensverteilung in Österreich stellt sich nun wie folgt dar:
 :::{.cr-section}
 
 :::{#cr-muenzen-top-1-roh}
-![](media/muenzen-top-1-roh.png){width="95%" fig-alt=""}
+![](media/muenzen-top-1-roh.png){fig-alt=""}
 :::
 
 :::{#cr-muenzen-top-1-adj}
-![](media/muenzen-top-1-adj.png){width="95%" fig-alt=""}
+![](media/muenzen-top-1-adj.png){fig-alt=""}
 :::
 
 
 :::{#cr-haushalte-1-lila-99-grau}
-<div style="text-align:center">![](media/haushalte-1-lila-99-grau.png){width="75%" fig-alt=""}</div>
+<div style="text-align:center">![](media/haushalte-1-lila-99-grau.png){fig-alt=""}</div>
 :::
 
 
 :::{#cr-haushalte-1-lila-9-blau-90-grau}
-<div style="text-align:center">![](media/haushalte-1-lila-9-blau-90-grau.png){width="75%" fig-alt=""}</div>
+<div style="text-align:center">![](media/haushalte-1-lila-9-blau-90-grau.png){fig-alt=""}</div>
 :::
 
 
 :::{#cr-haushalte-untere50-adj}
-<div style="text-align:center">![](media/haushalte-untere50-adj.png){width="75%" fig-alt=""}</div>
+<div style="text-align:center">![](media/haushalte-untere50-adj.png){fig-alt=""}</div>
 :::
 
 
@@ -291,7 +291,7 @@ Die Vermögensverteilung in Österreich stellt sich nun wie folgt dar:
 
 Und die untere Hälfte der Haushalte?
 
-@cr-haushalte-untere50-adj Ihr Anteil am Gesamtvermögen privater Haushalte beträgt nach der Anpassung lediglich <span class="highlighted-text">drei Prozent</span> (statt fünf Prozent).
+@cr-haushalte-untere50-adj Ihr Anteil am Gesamtvermögen privater Haushalte beträgt nach der Anpassung lediglich <span class="highlighted-text">drei Prozent</span>.
 
 
 :::
