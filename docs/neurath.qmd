@@ -1,6 +1,7 @@
 ---
 title: Wem gehört der Wohlstand in Österreich?
 author: Ansgar Wolsing
+output-file: index.html
 lang: de
 execute: 
   warning: false
