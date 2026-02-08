@@ -13,8 +13,8 @@
 
 body {
   font-family: Jost, Arial, sans-serif;
-  font-weight: 300;
   color: black;
+  font-weight: 400;
 }
 
 h1 {
@@ -99,7 +99,7 @@ ul {
 }
 
 li {
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   font-size: 0.9em;
 }
 
@@ -128,7 +128,7 @@ a:hover {
 }
 
 .highlighted-text {
-  font-weight: 600;
+  font-weight: 500;
   background-color: var(--color-darkgrey);
   color: white;
   padding: 2px 4px;
