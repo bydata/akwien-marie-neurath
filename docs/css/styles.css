@@ -87,11 +87,10 @@ p {
 }
 
 .page-full, section#quellen > p {
-  max-width: min(80%, calc(100vw - 2rem));
+  max-width: min(90%, calc(100vw - 2rem));
   margin: 2% auto;
   padding-inline: clamp(0.75rem, 3vw, 1rem);
 }
-
 
 ul {
   max-width: 80%;
@@ -207,7 +206,6 @@ main.content {
   }
   
   .page-full, section#quellen > p {
-    
     max-width: 95%;  
     padding-inline: 1rem;
   }

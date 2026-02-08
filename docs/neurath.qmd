@@ -1,8 +1,11 @@
 ---
 title: Wem gehört der Wohlstand in Österreich?
-author: Ansgar Wolsing
+author: 
+  name: Ansgar Wolsing
 output-file: index.html
-lang: de
+lang: "de"
+language:
+  title-block-author-single: "Autor"
 execute: 
   warning: false
   message: false
@@ -269,17 +272,17 @@ Die Vermögensverteilung in Österreich stellt sich nun wie folgt dar:
 
 
 :::{#cr-haushalte-1-lila-99-grau}
-<div style="text-align:center">![](media/haushalte-1-lila-99-grau.png){width="70%" fig-alt=""}</div>
+<div style="text-align:center">![](media/haushalte-1-lila-99-grau.png){width="75%" fig-alt=""}</div>
 :::
 
 
 :::{#cr-haushalte-1-lila-9-blau-90-grau}
-<div style="text-align:center">![](media/haushalte-1-lila-9-blau-90-grau.png){width="70%" fig-alt=""}</div>
+<div style="text-align:center">![](media/haushalte-1-lila-9-blau-90-grau.png){width="75%" fig-alt=""}</div>
 :::
 
 
 :::{#cr-haushalte-untere50-adj}
-<div style="text-align:center">![](media/haushalte-untere50-adj.png){width="70%" fig-alt=""}</div>
+<div style="text-align:center">![](media/haushalte-untere50-adj.png){width="75%" fig-alt=""}</div>
 :::
 
 
