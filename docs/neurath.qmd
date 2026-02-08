@@ -16,6 +16,7 @@ format:
     cr-style:
       narrative-text-color-overlay: "black"
       narrative-background-color-overlay: "#FFFFFFF2"
+      --cr-narrative-overlay-max-width: 600px
       narrative-border-radius: 5px
       narrative-font-family: "Jost"
       section-background-color: "#F1F1F1"
@@ -75,12 +76,12 @@ In Österreich gibt es rund 4,1 Millionen Privathaushalte. Hinter dieser Zahl ve
 
 :::
 
+<br><br>
+Wie groß ist das durchschnittliche Vermögen des <em>obersten Prozents</em> der Haushalte im Vergleich zum
 
-Als nächstes vergleichen wir...
-
-\- das mittlere Vermögen der <em>unteren Hälfte</em> der Haushalte<br>
-\- das mittlere Vermögen <em>aller Haushalte</em> und<br>
-\- das durchschnittliche Vermögen des <em>obersten Prozents</em>.<br>
+<em>·</em> mittleren Vermögen der <em>unteren Hälfte</em> der Haushalte<br>
+<em>·</em> mittleren Vermögen <em>aller Haushalte</em>?
+<br>
 
 Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich – nachdem alle Haushalte nach ihrem Vermögen sortiert wurden – genau in der Mitte befindet.
 <br><br><br>
@@ -146,7 +147,7 @@ Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich 
 
 @cr-haushalte-vermoegen-top1 Das <span class="highlighted-text highlighted-text-purple">oberste Prozent der Haushalte</span> besitzt allein 16 Prozent des gesamten Vermögens der privaten Haushalte.
 
-Die Tatsache, dass das <span class="highlighted-text highlighted-text-purple">oberste Prozent der Haushalte</span> 16 Prozent des Vermögens aller privaten Haushalte besitzt, während die untere Hälfte der Haushalte zusammen lediglich über rund fünf Prozent verfügt, verdeutlicht die Ungleichheit der Privatvermögen in Österreich.
+Dass zugleich die untere Hälfte der Haushalte zusammen lediglich über rund fünf Prozent der privaten Vermögen verfügt, verdeutlicht die Vermögenskonzentration in Österreich.
 
 @cr-haushalte-vermoegen-top1-10 Die <span class="highlighted-text-gradient-purple-blue">obersten zehn Prozent der Haushalte</span> verfügen sogar insgesamt über mehr als die Hälfte (52 Prozent) der gesamten Vermögen.
 
@@ -155,7 +156,7 @@ Die Tatsache, dass das <span class="highlighted-text highlighted-text-purple">ob
 
 <em>Aber:</em> Diese Zahlen erzählen nicht die ganze Geschichte. Es gibt ein systematisches Problem:
 
-Große Unternehmensbeteiligungen, Stiftungsvermögen und hohe Privatvermögen werden in Haushaltsbefragungen häufig nur unvollständig erfasst.
+Große Unternehmens- beteiligungen, Stiftungsvermögen und hohe Privatvermögen werden in Haushaltsbefragungen häufig nur unvollständig erfasst.
 
 Wer wirklich reich ist, wird von Zufallsstichproben oft schlicht nicht erfasst. Solche Befragungen <em>unterschätzen</em> die Höhe der Vermögen besonders reicher Haushalte - und somit auch die Konzentration von Vermögen an der Spitze der Verteilung.
 
@@ -168,7 +169,7 @@ Für die HFCS-Erhebung wird eine Stichprobe von Haushalten in Österreich befrag
 <br><br>
 Beim HFCS sind jedoch wohlhabendere Haushalte unterrepräsentiert.
 
-Es gibt drei Hauptgründe, warum das Gesamtvermögen und die Ungleichheit in einer Gesellschaft in Umfragen meist zu niedrig eingeschätzt werden:
+Dass das Gesamtvermögen und damit die Ungleichheit in einer Gesellschaft in Umfragen meist zu niedrig eingeschätzt werden, hat drei Hauptgründe.
 
 :::{.cr-section}
 
@@ -242,11 +243,13 @@ ggplot(df_rich, aes(x = 1, y = 1)) +
 
 ```
 
-Mithilfe der Pareto-Verteilung lässt sich mathematisch herleiten, wie sich das Vermögen in der Gruppe der sehr Reichen wahrscheinlich verteilt. Das Modell erlaubt es, die statistische Lücke zwischen der breiten Bevölkerung und den Superreichen präzise zu schließen, indem es die Anzahl und den Reichtum jener Haushalte schätzt, die von herkömmlichen Umfragen nicht erfasst werden.
+Mithilfe der Pareto-Verteilung kann man beschreiben, wie sich Vermögen bei sehr reichen Menschen typischerweise verteilt. Sie beruht auf der Beobachtung, dass in vielen Gesellschaften wenige Menschen einen großen Teil des Vermögens besitzen, während viele Menschen nur wenig haben.
+
+Die Pareto-Verteilung ist ein mathematisches Modell, das zeigt, wie stark das Vermögen an der Spitze konzentriert ist. Da sehr reiche Haushalte in Umfragen oft nicht erfasst werden oder keine Angaben machen, hilft dieses Modell dabei, ihre Anzahl und ihr ungefähres Vermögen statistisch abzuschätzen.
 
 Ab einer Grenze von vier Millionen Euro werden die Befragungswerte durch statistisch modellierte Haushalte ersetzt. Ziel ist es, die tatsächliche Konzentration am oberen Rand der Verteilung in Österreich realitätsgetreu abzubilden.
 
-Damit statistische Ausreißer das Ergebnis nicht künstlich aufblähen, wurde eine Obergrenze eingezogen: Vermögenswerte werden bei zehn Milliarden Euro gedeckelt. Selbst wenn das mathematische Modell theoretisch noch höhere Extremwerte zulassen würde, stellt dieser &bdquo;Deckel&rdquo; sicher, dass das Gesamtbild nicht durch einzelne Schätzwerte verzerrt wird.
+Damit statistische Ausreißer das Ergebnis nicht künstlich aufblähen, wurde eine Obergrenze eingezogen: Vermögenswerte werden bei zehn Milliarden Euro gedeckelt. Selbst wenn das mathematische Modell theoretisch noch höhere Extremwerte zulassen würde, stellt dieser &bdquo;Deckel&rdquo; sicher, dass das Gesamtbild nicht durch einzelne, besonders hohe Schätzwerte verzerrt wird.
 
 Nach dieser statistischen Anpassung zeigt sich ein genaueres Bild der der Vermögen in der Spitze.
 
@@ -266,24 +269,26 @@ Die Vermögensverteilung in Österreich stellt sich nun wie folgt dar:
 
 
 :::{#cr-haushalte-1-lila-99-grau}
-<div style="text-align:center">![](media/haushalte-1-lila-99-grau.png){fig-alt=""}</div>
+<div style="text-align:center">![](media/haushalte-1-lila-99-grau.png){width="70%" fig-alt=""}</div>
 :::
 
 
 :::{#cr-haushalte-1-lila-9-blau-90-grau}
-<div style="text-align:center">![](media/haushalte-1-lila-9-blau-90-grau.png){fig-alt=""}</div>
+<div style="text-align:center">![](media/haushalte-1-lila-9-blau-90-grau.png){width="70%" fig-alt=""}</div>
 :::
 
 
 :::{#cr-haushalte-untere50-adj}
-<div style="text-align:center">![](media/haushalte-untere50-adj.png){fig-alt=""}</div>
+<div style="text-align:center">![](media/haushalte-untere50-adj.png){width="70%" fig-alt=""}</div>
 :::
 
 
 
 @cr-muenzen-top-1-roh Auf Grundlage der Befragungsdaten besitzt das <span class="highlighted-text highlighted-text-purple">oberste Prozent der Haushalte</span> 16 Prozent der privaten Vermögen in Österreich.
 
-@cr-muenzen-top-1-adj Wenn man mit dem beschriebenen Verfahren schätzt, wie hoch das tatsächliche Vermögen des obersten Prozent ausfällt, dann sind es allerdings <em>41 Prozent</em>.
+Wie hoch das tatsächliche Vermögen des obersten Prozent ausfällt, wenn man mit dem beschriebenen Verfahren schätzt?
+
+@cr-muenzen-top-1-adj Es sind <em>41 Prozent</em>.
 
 @cr-haushalte-1-lila-99-grau <span class="highlighted-text highlighted-text-purple">Ein Haushalt</span> besitzt mit 41 % also gar nicht so viel weniger als die <span class="highlighted-text highlighted-text-grey">99 übrigen Haushalte</span>.
 
@@ -297,10 +302,14 @@ Und die untere Hälfte der Haushalte?
 :::
 
 
-Erst der Blick hinter die statistischen Lücken zeigt: Reichtum ist in Österreich weit konzentrierter, als es einfache Umfragen vermuten lassen. Diese Transparenz ist die notwendige Grundlage für jede sachliche Debatte darüber, wie Wohlstand und Verantwortung in Zukunft verteilt sein sollen.
+Herkömmliche Befragungen stoßen bei der Erfassung sehr hoher Vermögen an methodische Grenzen. Während für die unteren 90 Prozent der Haushalte eine solide Datengrundlage vorliegt, entstehen an der Spitze der Verteilung statistische Lücken.
+
+Die statistische Anpassung schätzt, dass das reichste Prozent einen Anteil von 41 Prozent am Gesamtvermögen hält.
+
+Um die Genauigkeit dieser Zahlen künftig weiter zu erhöhen, empfehlen Forschende eine Erweiterung der Datengrundlage nach internationalem Vorbild: Statt rein freiwilliger Umfragen könnte die Nutzung anonymisierter Steuerdaten, wie sie bereits in Frankreich oder Spanien praktiziert wird, die Verteilungsspitze exakter abbilden. Eine solche methodische Verbesserung des HFCS in Österreich würde die Grundlage dafür bieten, dass die öffentliche Debatte über die Verteilung von Wohlstand und gesellschaftlicher Verantwortung auf einer möglichst präzisen wissenschaftlichen Basis geführt wird.
 
 
-<br><br><br><br><br><br><br>
+<br><br><br><br>
 
 
 ## Quellen

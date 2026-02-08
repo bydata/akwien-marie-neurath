@@ -65,11 +65,11 @@ p {
 }
 
 .narrative p {
-  font-size: clamp(0.9rem, 0.5rem + 2vw, 1.1em);
+  font-size: clamp(1rem, 0.5rem + 2vw, 1.3em) !important;
   font-weight: 400;
   line-height: clamp(1.25, 1.3, 1.4) !important;
-  word-break: break-word;
-  hyphens: auto;
+  /*word-break: break-word;
+  hyphens: auto;*/
 }
 
 #quarto-document-content p {
@@ -87,7 +87,7 @@ p {
 }
 
 .page-full, section#quellen > p {
-  max-width: min(90%, calc(100vw - 2rem));
+  max-width: min(80%, calc(100vw - 2rem));
   margin: 2% auto;
   padding-inline: clamp(0.75rem, 3vw, 1rem);
 }
