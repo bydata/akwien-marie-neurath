@@ -89,7 +89,7 @@ Wie groß ist das durchschnittliche Vermögen des <em>obersten Prozents</em> der
 Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich – nachdem alle Haushalte nach ihrem Vermögen sortiert wurden – genau in der Mitte befindet.
 <br><br><br>
 
-![](media/vermoegen-vergleich-1-mit-labels.png)
+![](media/vermoegen-vergleich-1-mit-labels.png){fig.alt="Gestapelte Münzen: 2 Münzen für die untere Hälfte der Haushalte, 13 Münzen für das mittlere Vermögen, 493 Münzen für das Durchschnittsvermögen des obersten Prozents."}
 
 
 
@@ -98,45 +98,45 @@ Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich 
 :::{#cr-haushalte-vermoegen-start}
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
-![](media/haushalte-vermoegen-start.png)
+![](media/haushalte-vermoegen-start.png){fig.alt="Links graue Häuser, rechts graue Münzen, jeweils in einem 10x10-Raster"}
 :::
 
 :::{#cr-haushalte-vermoegen-untere50}
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
 
-![](media/haushalte-vermoegen-untere50.png)
+![](media/haushalte-vermoegen-untere50.png){fig.alt="Die unteren 50 Häuser und fünf Münzen sind nun schwarz"}
 :::
 
 :::{#cr-haushalte-vermoegen-50bis11}
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
-![](media/haushalte-vermoegen-50bis11.png)
+![](media/haushalte-vermoegen-50bis11.png){fig.alt="Die nächsten 40 Häuser sind grün, dazu 43 grüne Münzen"}
 :::
 
 :::{#cr-haushalte-vermoegen-10bis2}
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
-![](media/haushalte-vermoegen-10bis2.png)
+![](media/haushalte-vermoegen-10bis2.png){fig.alt="Die ersten neun Häuser der obersten Reihe sind blau, dazu 36 Münzen"}
 :::
 
 :::{#cr-haushalte-vermoegen-top1}
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
-![](media/haushalte-vermoegen-top1.png)
+![](media/haushalte-vermoegen-top1.png){fig.alt="Das Haus rechts in der obersten Reihe ist lila, dazu 16 lila Münzen"}
 :::
 
 
 :::{#cr-haushalte-vermoegen-top1-10}
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
-![](media/haushalte-vermoegen-top1-10.png)
+![](media/haushalte-vermoegen-top1-10.png){fig.alt="Die neun blauen und das lilafarbene Haus, dazu 52 Münzen"}
 :::
 
 :::{#cr-haushalte-vermoegen-untere90}
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
-![](media/haushalte-vermoegen-untere90.png)
+![](media/haushalte-vermoegen-untere90.png){fig.alt="40 grüne und 50 schwarze Häuser, dazu 48 Münzen"}
 :::
 
 
@@ -215,7 +215,7 @@ Um ein realistisches Gesamtbild zu zeichnen, können die Befragungsdaten anhand 
 Zwischen dem Vermögen des <span class="highlighted-text highlighted-text-purple">reichsten Haushalts der Umfrage</span> (ca. 12 Mio. Euro) und dem Vermögen auf dem <span class="highlighted-text">untersten Rang der Reichstenliste</span> (290 Mio. Euro) klafft ein riesiges Loch.
 
 <br><br>
-```{r circle-chart, out.width="90%", fig.width=8, fig.align="center"}
+```{r circle-chart, out.width="90%", fig.width=8, fig.align="center", fig.alt = "Ein kleiner Kreis mit der Beschriftung 12 Millionen Euro, daneben ein großer Kreis mit der Beschriftung 290 Millionen Euro. Die Flächen der Kreise sind proportional zur jeweiligen Zahl"}
 library(ggplot2)
 df_rich <- data.frame(
   label = c("Reichster Haushalt\nin der Umfrage",
@@ -263,26 +263,26 @@ Die Vermögensverteilung in Österreich stellt sich nun wie folgt dar:
 :::{.cr-section}
 
 :::{#cr-muenzen-top-1-roh}
-![](media/muenzen-top-1-roh.png){fig-alt=""}
+![](media/muenzen-top-1-roh.png){fig-alt="16 lilafarbene Münzen"}
 :::
 
 :::{#cr-muenzen-top-1-adj}
-![](media/muenzen-top-1-adj.png){fig-alt=""}
+![](media/muenzen-top-1-adj.png){fig-alt="41 lilafarbene Münzen"}
 :::
 
 
 :::{#cr-haushalte-1-lila-99-grau}
-<div style="text-align:center">![](media/haushalte-1-lila-99-grau.png){width="75%" fig-alt=""}</div>
+<div style="text-align:center">![](media/haushalte-1-lila-99-grau.png){width="75%" fig-alt="Links: ein großes lilafarbenes Haus und 41 Münzen, rechts: 99 kleine graue Häuser und 59 Münzen"}</div>
 :::
 
 
 :::{#cr-haushalte-1-lila-9-blau-90-grau}
-<div style="text-align:center">![](media/haushalte-1-lila-9-blau-90-grau.png){width="75%" fig-alt=""}</div>
+<div style="text-align:center">![](media/haushalte-1-lila-9-blau-90-grau.png){width="75%" fig-alt="Links: ein lilafarbenes großes Haus, 9 blaue kleine Häuser und 67 Münzen, rechts: 90 graue Häuser und 33 Münzen"}</div>
 :::
 
 
 :::{#cr-haushalte-untere50-adj}
-<div style="text-align:center">![](media/haushalte-untere50-adj.png){width="75%" fig-alt=""}</div>
+<div style="text-align:center">![](media/haushalte-untere50-adj.png){width="75%" fig-alt="50 graue Häuser und drei schwarze Münzen"}</div>
 :::
 
 
