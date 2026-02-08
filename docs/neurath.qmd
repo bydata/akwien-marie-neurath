@@ -38,27 +38,27 @@ Diese interaktive Auswertung nimmt dich mit auf eine Spurensuche: Wir betrachten
 :::{.cr-section}
 
 :::{#cr-vermoegen fetchpriority="high"}
-![](media/vermoegen-klein.png){fig.alt="Darstellung verschiedener Vermögenswerte im Isotype-Stil: Haus, Aktien, Bargeld, Firmenbesitz, Wertgegenstände"}
+![](assets/vermoegen-klein.png){fig.alt="Darstellung verschiedener Vermögenswerte im Isotype-Stil: Haus, Aktien, Bargeld, Firmenbesitz, Wertgegenstände"}
 :::
 
 :::{#cr-haushalte}
-![](media/haushalte.png){fig.alt="Darstellung verschiedener Haushaltskonstellationen im Isotype-Stil, z.B. Mann und Frau mit drei Kindern, Mann allein, Frau allein, Frau und Frau mit zwei Kindern"}
+![](assets/haushalte.png){fig.alt="Darstellung verschiedener Haushaltskonstellationen im Isotype-Stil, z.B. Mann und Frau mit drei Kindern, Mann allein, Frau allein, Frau und Frau mit zwei Kindern"}
 :::
 
 :::{#cr-100-haushalte}
-![](media/haushalte-100-grau.png){fig.alt="10x10 graue Häuser in einem Raster"}
+![](assets/haushalte-100-grau.png){fig.alt="10x10 graue Häuser in einem Raster"}
 :::
 
 :::{#cr-100-haushalte-untere50}
-![](media/haushalte-100-untere50.png){fig.alt="10x10 Häuser in einem Raster, die unteren fünf Reihen sind schwarz, die oberen grau"}
+![](assets/haushalte-100-untere50.png){fig.alt="10x10 Häuser in einem Raster, die unteren fünf Reihen sind schwarz, die oberen grau"}
 :::
 
 :::{#cr-100-haushalte-top10}
-![](media/haushalte-100-top10.png){fig.alt="10x10 Häuser in einem Raster, die Häuser in der obersten Reihe sind schwarz, die übrigen grau"}
+![](assets/haushalte-100-top10.png){fig.alt="10x10 Häuser in einem Raster, die Häuser in der obersten Reihe sind schwarz, die übrigen grau"}
 :::
 
 :::{#cr-100-haushalte-top1}
-![](media/haushalte-100-top1.png){fig.alt="10x10 Häuser in einem Raster, die ersten neun Häuser der obersten Reihe sind schwarz, das letzte Haus ist lila, die oberen grau"}
+![](assets/haushalte-100-top1.png){fig.alt="10x10 Häuser in einem Raster, die ersten neun Häuser der obersten Reihe sind schwarz, das letzte Haus ist lila, die oberen grau"}
 :::
 
 
@@ -89,7 +89,7 @@ Wie groß ist das durchschnittliche Vermögen des <em>obersten Prozents</em> der
 Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich – nachdem alle Haushalte nach ihrem Vermögen sortiert wurden – genau in der Mitte befindet.
 <br><br><br>
 
-![](media/vermoegen-vergleich-1-mit-labels.png){fig.alt="Gestapelte Münzen: 2 Münzen für die untere Hälfte der Haushalte, 13 Münzen für das mittlere Vermögen, 493 Münzen für das Durchschnittsvermögen des obersten Prozents."}
+![](assets/vermoegen-vergleich-1-mit-labels.png){fig.alt="Gestapelte Münzen: 2 Münzen für die untere Hälfte der Haushalte, 13 Münzen für das mittlere Vermögen, 493 Münzen für das Durchschnittsvermögen des obersten Prozents."}
 
 
 
@@ -98,45 +98,45 @@ Mit dem mittleren Vermögen ist das Vermögen jenes Haushalts gemeint, der sich 
 :::{#cr-haushalte-vermoegen-start}
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
-![](media/haushalte-vermoegen-start.png){fig.alt="Links graue Häuser, rechts graue Münzen, jeweils in einem 10x10-Raster"}
+![](assets/haushalte-vermoegen-start.png){fig.alt="Links graue Häuser, rechts graue Münzen, jeweils in einem 10x10-Raster"}
 :::
 
 :::{#cr-haushalte-vermoegen-untere50}
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
 
-![](media/haushalte-vermoegen-untere50.png){fig.alt="Die unteren 50 Häuser und fünf Münzen sind nun schwarz"}
+![](assets/haushalte-vermoegen-untere50.png){fig.alt="Die unteren 50 Häuser und fünf Münzen sind nun schwarz"}
 :::
 
 :::{#cr-haushalte-vermoegen-50bis11}
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
-![](media/haushalte-vermoegen-50bis11.png){fig.alt="Die nächsten 40 Häuser sind grün, dazu 43 grüne Münzen"}
+![](assets/haushalte-vermoegen-50bis11.png){fig.alt="Die nächsten 40 Häuser sind grün, dazu 43 grüne Münzen"}
 :::
 
 :::{#cr-haushalte-vermoegen-10bis2}
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
-![](media/haushalte-vermoegen-10bis2.png){fig.alt="Die ersten neun Häuser der obersten Reihe sind blau, dazu 36 Münzen"}
+![](assets/haushalte-vermoegen-10bis2.png){fig.alt="Die ersten neun Häuser der obersten Reihe sind blau, dazu 36 Münzen"}
 :::
 
 :::{#cr-haushalte-vermoegen-top1}
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
-![](media/haushalte-vermoegen-top1.png){fig.alt="Das Haus rechts in der obersten Reihe ist lila, dazu 16 lila Münzen"}
+![](assets/haushalte-vermoegen-top1.png){fig.alt="Das Haus rechts in der obersten Reihe ist lila, dazu 16 lila Münzen"}
 :::
 
 
 :::{#cr-haushalte-vermoegen-top1-10}
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
-![](media/haushalte-vermoegen-top1-10.png){fig.alt="Die neun blauen und das lilafarbene Haus, dazu 52 Münzen"}
+![](assets/haushalte-vermoegen-top1-10.png){fig.alt="Die neun blauen und das lilafarbene Haus, dazu 52 Münzen"}
 :::
 
 :::{#cr-haushalte-vermoegen-untere90}
 ## Wie teilt sich das Vermögen der privaten Haushalte in Österreich auf?
 
-![](media/haushalte-vermoegen-untere90.png){fig.alt="40 grüne und 50 schwarze Häuser, dazu 48 Münzen"}
+![](assets/haushalte-vermoegen-untere90.png){fig.alt="40 grüne und 50 schwarze Häuser, dazu 48 Münzen"}
 :::
 
 
@@ -177,19 +177,19 @@ Dass das Gesamtvermögen und damit die Ungleichheit in einer Gesellschaft in Umf
 :::{.cr-section}
 
 :::{#cr-viele-haushalte-2-lila}
-<div style="text-align:center">![](media/viele-haushalte-2-lila.png){fig-alt="1000 kleine Häuser, in einem Raster angeordnet, 2 Häuser sind lila, die anderen grau"}</div>
+<div style="text-align:center">![](assets/viele-haushalte-2-lila.png){fig-alt="1000 kleine Häuser, in einem Raster angeordnet, 2 Häuser sind lila, die anderen grau"}</div>
 :::
 
 :::{#cr-viele-haushalte-2-lila-stichprobe}
-<div style="text-align:center">![](media/viele-haushalte-2-lila-stichprobe.png){fig-alt="1000 kleine Häuser, in einem Raster angeordnet, 2 Häuser sind lila, die anderen grau, einige graue Häuser und ein lila Haus werden von einem Rechteck umschlossen"}</div>
+<div style="text-align:center">![](assets/viele-haushalte-2-lila-stichprobe.png){fig-alt="1000 kleine Häuser, in einem Raster angeordnet, 2 Häuser sind lila, die anderen grau, einige graue Häuser und ein lila Haus werden von einem Rechteck umschlossen"}</div>
 :::
 
 :::{#cr-viele-haushalte-2-lila-stichprobe-verweigerung}
-<div style="text-align:center">![](media/viele-haushalte-2-lila-stichprobe-verweigerung.png){fig-alt="Gleiches Bild, das lila-farbene Haus ist jedoch verschwunden"}</div>
+<div style="text-align:center">![](assets/viele-haushalte-2-lila-stichprobe-verweigerung.png){fig-alt="Gleiches Bild, das lila-farbene Haus ist jedoch verschwunden"}</div>
 :::
 
 :::{#cr-vermoegen-untererfassung}
-<div style="text-align:center">![](media/vermoegen-untererfassung.png){fig-alt="Ein Bild mit Symbolen verschiedener Vermögensarten. Ein Haus und eine Fabrik sind ausgegraut"}</div>
+<div style="text-align:center">![](assets/vermoegen-untererfassung.png){fig-alt="Ein Bild mit Symbolen verschiedener Vermögensarten. Ein Haus und eine Fabrik sind ausgegraut"}</div>
 :::
 
 
@@ -263,26 +263,26 @@ Die Vermögensverteilung in Österreich stellt sich nun wie folgt dar:
 :::{.cr-section}
 
 :::{#cr-muenzen-top-1-roh}
-![](media/muenzen-top-1-roh.png){fig-alt="16 lilafarbene Münzen"}
+![](assets/muenzen-top-1-roh.png){fig-alt="16 lilafarbene Münzen"}
 :::
 
 :::{#cr-muenzen-top-1-adj}
-![](media/muenzen-top-1-adj.png){fig-alt="41 lilafarbene Münzen"}
+![](assets/muenzen-top-1-adj.png){fig-alt="41 lilafarbene Münzen"}
 :::
 
 
 :::{#cr-haushalte-1-lila-99-grau}
-<div style="text-align:center">![](media/haushalte-1-lila-99-grau.png){width="75%" fig-alt="Links: ein großes lilafarbenes Haus und 41 Münzen, rechts: 99 kleine graue Häuser und 59 Münzen"}</div>
+<div style="text-align:center">![](assets/haushalte-1-lila-99-grau.png){width="75%" fig-alt="Links: ein großes lilafarbenes Haus und 41 Münzen, rechts: 99 kleine graue Häuser und 59 Münzen"}</div>
 :::
 
 
 :::{#cr-haushalte-1-lila-9-blau-90-grau}
-<div style="text-align:center">![](media/haushalte-1-lila-9-blau-90-grau.png){width="75%" fig-alt="Links: ein lilafarbenes großes Haus, 9 blaue kleine Häuser und 67 Münzen, rechts: 90 graue Häuser und 33 Münzen"}</div>
+<div style="text-align:center">![](assets/haushalte-1-lila-9-blau-90-grau.png){width="75%" fig-alt="Links: ein lilafarbenes großes Haus, 9 blaue kleine Häuser und 67 Münzen, rechts: 90 graue Häuser und 33 Münzen"}</div>
 :::
 
 
 :::{#cr-haushalte-untere50-adj}
-<div style="text-align:center">![](media/haushalte-untere50-adj.png){width="75%" fig-alt="50 graue Häuser und drei schwarze Münzen"}</div>
+<div style="text-align:center">![](assets/haushalte-untere50-adj.png){width="75%" fig-alt="50 graue Häuser und drei schwarze Münzen"}</div>
 :::
 
 
